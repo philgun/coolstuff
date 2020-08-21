@@ -1,0 +1,1 @@
+connectionstring='mongodb://root:rootpasswd123@103.103.175.150:27017/emission?authSource=test&readPreference=primary&appname=MongoDB%20Compass&ssl=false'

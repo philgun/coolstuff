@@ -26,7 +26,7 @@ for i in range(len(T)):
 
 for i in range(len(hour)):
 	h = hour[i]
-	if h >=18:
+	if h >=18 and h<=22:
 		P[i] = P[i] * 2
 
 motab = []

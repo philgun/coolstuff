@@ -28,7 +28,7 @@ productwrapper = lib.getProductWrapper(soup)
 globalProduct = []
 globalPrice = []
 
-#Data from Merchant We like to have
+#Data from Merchant we like to have
 MerchantName = []
 Followers = []
 ProdukTerjual = []
@@ -79,7 +79,6 @@ for product in productwrapper:
     elif infoclass_.find('div',class_='css-1a4ihta') is not None:
         if infoclass_.find('div',class_='css-1a4ihta').text != name:
             price = infoclass_.find('div',class_='css-1a4ihta').text
-
         else:
             price = infoclass_.find('div',class_='css-1a4ihta').text
 
@@ -118,42 +117,10 @@ for product in productwrapper:
         MerchantName.append(shopName)
         followers = lib.getFollowers(resSoup)
         Followers.append(followers)
+        
         #Continue with product terjual
     
 
-    '''
-    #Data from Merchant We like to have
-    MerchantName = []
-    Followers = []
-    ProdukTerjual = []
-    Bintang = []
-    Ulasan = []
-
-    FirstProduct_Name = []
-    FirstProduct_Qty = []
-    FirstProduct_Price = []
-    FirstProduct_Size = []
-
-    SecondProduct_Name = []
-    SecondProduct_Qty = []
-    SecondProduct_Price = []
-    SecondProduct_Size = []
-
-    ThirdProduct_Name = []
-    ThirdProduct_Qty = []
-    ThirdProduct_Price = []
-    ThirdProduct_Size = []
-
-    FourthProduct_Name = []
-    FourthProduct_Qty = []
-    FourthProduct_Price = []
-    FourthProduct_Size = []
-
-    FifthProduct_Name = []
-    FifthProduct_Qty = []
-    FifthProduct_Price = []
-    Fifth_Product_Size = []
-    '''
 
 
     
