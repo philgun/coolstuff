@@ -31,33 +31,27 @@ class MongoDB(object):
     def gen_dataframe(self):
         length = 0
         keys = []
-
         list_of_documents = []
-
         #Get the most complete keys!
         for document in self.cursor:
             list_of_documents.append(document)
             if len(document.keys()) > length:
                 #Updating the length and keys
                 length = len(document.keys())
-                keys = document.keys()
-        
+                keys = document.keys()        
         #generate empty dataframe with column names = keys
         self.df = pd.DataFrame(columns=keys)
-
         for document in list_of_documents:
+            #Generate empy dictionary with keys = keys
             d = dict.fromkeys(keys)
             for key in keys:
                 docukeys = document.keys()
                 if key in docukeys:
                     #Get the value
                     val = document[key]
-
                     #Insert the value to dictionary
                     d[key] = val
-            
             self.df=self.df.append(d,ignore_index=True)
-        
         return self.df
           
 

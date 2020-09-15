@@ -3,17 +3,15 @@ import pandas as pd
 import math
 import random
 
-#Read data
+#Read data and reverse
 df = pd.read_csv('test.csv')
+df = df.iloc[::-1]
 
 #Sort from the latest to oldest
-df = df.sort_values(by='TimeStamp',ascending=False)
-df.reset_index(drop=True)
+#df = df.sort_values(by='TimeStamp',ascending=False)
+#df.reset_index(drop=True)
 
 lenID = len(df)
-
-#Create Cumulative Money
-df['CumulativeDonationClean'] = df['DonationClean'].cumsum(skipna=True)
 
 #Generate New DataFrame 
 Name =[]
@@ -21,9 +19,6 @@ DonationRaw =[]
 DonationClean = []
 ID_transaction = []
 TimeStamp=[]
-Day=[]
-Month=[]
-Year=[]
 
 partner = []
 IDbank = []
@@ -51,7 +46,8 @@ for i in range(len(df)):
     
     #Calculate initial delta with initial nextmilestone
     delta = nextmilestone - sumsum
-    donclean = df.DonationClean.iat[i]
+    #donclean = df.DonationClean.iat[i]
+    donclean = df.DonationRaw.iat[i]
     
     #If ID is already taken by other donator
     ID = random.randint(1,lenID)
@@ -66,8 +62,10 @@ for i in range(len(df)):
     while delta < donclean: #When the donation clean is greater than delta, break donation clean into several pieces
 
         #Append delta and donation raw
-        DonationClean.append(delta)
-        DonationRaw.append(delta/0.95)
+        #DonationClean.append(delta)
+        #DonationRaw.append(delta/0.95)
+        DonationRaw.append(delta)
+        DonationClean.append(delta*0.95)
 
         #Append name
         if df.Name.iat[i] == ".":
@@ -83,9 +81,6 @@ for i in range(len(df)):
 
         #Append time
         TimeStamp.append(df['TimeStamp'].iat[i])
-        Day.append(df['Day'].iat[i])
-        Month.append(df['Month'].iat[i])
-        Year.append(df['Year'].iat[i])
 
         #Update sumsum
         sumsum += delta
@@ -110,26 +105,26 @@ for i in range(len(df)):
         Name.append(df.Name.iat[i])
 
     #Append donclean, donraw and sumsum
-    DonationClean.append(donclean)
-    DonationRaw.append(donclean/0.95)
+    #DonationClean.append(donclean)
+    #DonationRaw.append(donclean/0.95)
+    DonationClean.append(donclean*0.95)
+    DonationRaw.append(donclean)
     sumsum += donclean
 
     #Append time
     TimeStamp.append(df['TimeStamp'].iat[i])
-    Day.append(df['Day'].iat[i])
-    Month.append(df['Month'].iat[i])
-    Year.append(df['Year'].iat[i])
-        
+
     #Append ID
     ID_transaction.append(ID)
     
-df = pd.DataFrame(zip(Name,DonationRaw,DonationClean,ID_transaction,TimeStamp,Day,Month,Year),
-columns=['Name','DonationRaw','DonationClean','IDTransaction','TimeStamp','Day','Month','Year'])
-df['DonationCleanCumulative'] = df['DonationClean'].cumsum(skipna=True)
+df = pd.DataFrame(zip(Name,DonationRaw,DonationClean,ID_transaction,TimeStamp),
+columns=['Name','DonationRaw','DonationClean','IDTransaction','TimeStamp'])
+df['DonationRawCumulative'] = df['DonationRaw'].cumsum(skipna=True)
 
 #Fill up the partner column
 for i in range(len(df)):
-    sumsum = df['DonationCleanCumulative'].iat[i]
+    #sumsum = df['DonationCleanCumulative'].iat[i]
+    sumsum = df['DonationRawCumulative'].iat[i]
 
     #Define the limit
     limit0 = base0 + math.floor(sumsum/base3) * base3
@@ -207,8 +202,10 @@ tree = []
 ownership = []
 
 for i in range(len(df)):
-    sumsum = df.DonationCleanCumulative.iat[i]
-    donclean = df.DonationClean.iat[i]
+    #sumsum = df.DonationCleanCumulative.iat[i]
+    #donclean = df.DonationClean.iat[i]
+    sumsum = df.DonationRawCumulative.iat[i]
+    donclean = df.DonationRaw.iat[i]
 
     #Limit for each tree
     limit1	=	base1	+	math.floor(sumsum/base27) * base27
@@ -300,9 +297,41 @@ for i in range(len(df)):
 df['Tree'] = tree
 df['Ownership'] = ownership
 
+#Dictionary for sequestration
+sequestration = {"Mangrove":56,
+"Petai (Parkia speciose)":74.95,
+"Durian (Durio zibethinus)":87.16,
+"Jengkol (Archidendron pauciflorum)":83.29,
+"Duku (Lansium domesticum)":90.2,
+"Langsat (Lansium domesticum)":90.2,
+"Manggis (Garcinia mangostana)":152.85,
+"Nangka (Artocarpus heterophyllus)":83.32,
+"Cempedak (Artocarpus integer)":100.14,
+"Asam Gelugus (Garcinia atroviridis)":135.95,
+"Matoa (Pometia pinnata)":109.26,
+"Arean (Arenga pinnata)":144.45,
+"Bayur (Pterospermum javanicum)":71.63,
+"Merbo (Intsia sp)":132.2,
+"Meranti (Shorea sp)":93.49,
+"Keruing (Dipterocarpus sp)":111.07,
+"Cengal (Neobalanocarpus heimii)":135.83,
+"Gaharu (Aquilaria malaccensis)":52.43,
+"Terambesi (Samanea saman)":81.49,
+"Tualang (Koompassia excelsa)":152.85,
+"Damar (Agathis dammara)":75.16,
+"Bambu-bambuan (Famili : Paochea)":40.8,
+"Surian":59.82,
+"Kulit Manis":82.37,
+"Cengkeh":108.14,
+"Kemiri":58.52}
 
-
-
+seques = []
+for i in range(len(df)):
+    ownership = df['Ownership'].iat[i]
+    name = df['Tree'].iat[i]
+    sq = sequestration[name] * ownership
+    seques.append(sq)
+df['sequestration'] = seques
 
 #Save the file to CSV and excel
 df.to_csv("Processed.csv",index=False)

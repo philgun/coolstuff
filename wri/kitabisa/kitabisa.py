@@ -14,7 +14,7 @@ def scrollDown(pause, driver,numDonasi):
     lastHeight = driver.execute_script("return document.body.scrollHeight")
     length = -100
 
-    while length <= numDonasi:
+    while length <= numDonasi+1:
         length = 0
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
@@ -32,12 +32,14 @@ def scrollDown(pause, driver,numDonasi):
         listdonor = container.find_all('div',class_='style__DonorItem-sc-1exee2-4 fGNbpm')
         length = len(listdonor)
         print(length,numDonasi)
-
         #Give chrome time to load!
         time.sleep(pause)
 
 
+
 URL = 'https://kitabisa.com/campaign/patunganpohon/'
+
+now = time.time()
 
 #Fire chrome
 driver = webdriver.Chrome()
@@ -118,6 +120,8 @@ for donor in listdonor:
 
     #Get the timestamp!
     timestamp = infoclass.find('span',class_='style__DonationTime-sc-1exee2-9 eGPNbw').text
+    TimeStamp.append(timestamp)
+    '''
     timestampsplit = timestamp.split(' ')
     if len(timestampsplit) <4:
         num = dcthrs[timestampsplit[0]]
@@ -131,9 +135,26 @@ for donor in listdonor:
     Day.append(time_of_donation.day)
     Month.append(time_of_donation.month)
     Year.append(time_of_donation.year)
+    '''
     
 #Save file to csv
-df = pd.DataFrame(zip(Name,DonationRaw,DonationClean,TimeStamp,Day,Month,Year),
-columns=['Name','DonationRaw','DonationClean','TimeStamp','Day','Month','Year'])
+df = pd.DataFrame(zip(Name,DonationRaw,DonationClean,TimeStamp),
+columns=['Name','DonationRaw','DonationClean','TimeStamp'])
+df.to_csv("test_dummy_alldata.csv",index=False)
+
+df = pd.DataFrame(zip(Name,DonationRaw,DonationClean,TimeStamp),
+columns=['Name','DonationRaw','DonationClean','TimeStamp'])
 df = df[0:numdonasi]
-df.to_csv("test.csv",index=False)
+df.to_csv("test_dummy_gadalebihnya.csv",index=False)
+
+df = pd.DataFrame(zip(Name,DonationRaw,DonationClean,TimeStamp),
+columns=['Name','DonationRaw','DonationClean','TimeStamp'])
+df = df[0:numdonasi+1]
+df.to_csv("test_dummy_lebihsatu.csv",index=False)
+
+df = pd.DataFrame(zip(Name,DonationRaw,DonationClean,TimeStamp),
+columns=['Name','DonationRaw','DonationClean','TimeStamp'])
+df = df[0:numdonasi+2]
+df.to_csv("test_dummy_lebihdua.csv",index=False)
+
+
