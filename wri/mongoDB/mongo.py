@@ -22,7 +22,7 @@ database = cluster.load_database("emission")
 collection_names = cluster.load_collection_names()
 print(collection_names)
 
-'''
+
 #Get raw data
 writer = pd.ExcelWriter("%s/raw.xlsx"%(dirname),engine='xlsxwriter')
 print(dirname)
@@ -33,7 +33,7 @@ for name in collection_names:
     df = cluster.gen_dataframe()
     df.to_excel(writer,sheet_name=name,index=False)
 writer.save()
-'''
+
 
 #Dictionary Emission Moda Transportasi
 
@@ -495,6 +495,9 @@ columns=[
     'TanamSendiri_TimeStamp','TanamSendiri_Lokasi','TanamSendiri_JenisPohon','TanamSendiri_TinggiPohon','TanamSendiri_Keliling_cm','TanamSendiri_Foto'
     ])
 print(res.head())
+directory = './CleanData'
+if not(os.path.exists(directory)):
+	os.makedirs(directory)
 writer = pd.ExcelWriter("./CleanData/DataBaseClean_%s%s%s.xlsx"%(now.strftime('%d'),now.strftime('%m'),now.strftime('%y')),engine='xlsxwriter')
 res.to_excel(writer,sheet_name='Sheet1',index=False)
 writer.save()
