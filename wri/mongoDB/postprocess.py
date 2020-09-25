@@ -9,7 +9,7 @@ med=12.5
 small=10
 
 #PostProcess
-now = datetime.date(year=2020,month=9,day=12)
+now = datetime.datetime.now()
 fn = './CleanData/DataBaseClean_%s%s%s.csv'%(now.strftime('%d'),now.strftime('%m'),now.strftime('%y'))
 df = pd.read_csv(fn)
 print(df.columns)
