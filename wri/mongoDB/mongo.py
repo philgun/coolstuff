@@ -111,6 +111,13 @@ seqpohon_dict = {
     "5f2907fd8cb8b77649ccdc08":93.5
 }
 
+jenispohon_dict = {
+    "5f2907658cb8b77649ccdc05":'Bakau',
+    "5f2907a78cb8b77649ccdc06":'Meranti',
+    "5f2907cb8cb8b77649ccdc07":'Surian',
+    "5f2907fd8cb8b77649ccdc08":'Meranti'
+}
+
 
 #Start Post Processing
 #Get the dftrips dude!
@@ -165,6 +172,7 @@ TimeStampBersamaMitra = []
 PartnerPenanamBersamaMitra = []
 JumlahPohonBersamaMitra = []
 JumlahEmisiTerserapBersamaMitra =[]
+JenisPohonBersamaMitra = []
 
 #Sendiri
 TimeStampSendiri = []
@@ -242,6 +250,7 @@ for i in range(len(dftrips)):
         partnerpenanam = dftrees['partner'][dftrees['_id'] == idpohon].values[0]
         hargapohon = hargapohon_dict[stridpohon]
         seqpohon = seqpohon_dict[stridpohon]
+        jenispohon = jenispohon_dict[stridpohon]
 
         ts_sendiri = None
         lokasi_sendiri = None
@@ -267,6 +276,7 @@ for i in range(len(dftrips)):
         partnerpenanam = None
         hargapohon = None
         seqpohon = None
+        jenispohon = None
 
     elif sendiri and bermitra:
         idpohon = dftransactions['tree'][dftransactions['trip']==id_trip].values[0]
@@ -275,6 +285,7 @@ for i in range(len(dftrips)):
         partnerpenanam = dftrees['partner'][dftrees['_id']==idpohon].values[0]
         hargapohon = hargapohon_dict[stridpohon]
         seqpohon = seqpohon_dict[stridpohon]
+        jenispohon = jenispohon_dict[stridpohon]
         
         ts_sendiri = dfpenyerapans['createdAt'][dfpenyerapans['tripId']==id_trip].values[0]
         lokasi_sendiri = dfpenyerapans['jenisLokasiId'][dfpenyerapans['tripId']==id_trip].values[0]
@@ -295,6 +306,7 @@ for i in range(len(dftrips)):
         partnerpenanam = None
         hargapohon = None
         seqpohon = None
+        jenispohon = None
         pohon_sendiri = None
    
     #Check data type
@@ -345,6 +357,8 @@ for i in range(len(dftrips)):
                         JumlahPohonBersamaMitra.append(None)
                         JumlahEmisiTerserapBersamaMitra.append(None)
 
+                    JenisPohonBersamaMitra.append(jenispohon)					
+						
                     #Sendiri
                     TimeStampSendiri.append(ts_sendiri)
                     LokasiSendiri.append(lokasi_sendiri)
@@ -386,6 +400,8 @@ for i in range(len(dftrips)):
                 else:
                     JumlahPohonBersamaMitra.append(None)
                     JumlahEmisiTerserapBersamaMitra.append(None)
+				
+                JenisPohonBersamaMitra.append(jenispohon)				
 
                 #Sendiri
                 TimeStampSendiri.append(ts_sendiri)
@@ -431,6 +447,8 @@ for i in range(len(dftrips)):
                     JumlahPohonBersamaMitra.append(None)
                     JumlahEmisiTerserapBersamaMitra.append(None)
 
+                JenisPohonBersamaMitra.append(jenispohon)				
+
                 #Sendiri
                 TimeStampSendiri.append(ts_sendiri)
                 LokasiSendiri.append(lokasi_sendiri)
@@ -472,6 +490,8 @@ for i in range(len(dftrips)):
                 else:
                     JumlahPohonBersamaMitra.append(None)
                     JumlahEmisiTerserapBersamaMitra.append(None)
+				
+                JenisPohonBersamaMitra.append(jenispohon)				
 
                 #Sendiri
                 TimeStampSendiri.append(ts_sendiri)
@@ -483,16 +503,64 @@ for i in range(len(dftrips)):
                 itermoda+=1
 
 res = pd.DataFrame(zip(
-    User,UserName,IDPerjalanan,TimeStampPerjalanan,Dist,Moda,Penumpang,CO2,CO,NOX,SO2,PM2,
-    ID_transaction,TimeStampTransactions,Waktu,JumlahDana,StatusTransaction,
-    TimeStampBersamaMitra,PartnerPenanamBersamaMitra,JumlahPohonBersamaMitra,JumlahEmisiTerserapBersamaMitra,
-    TimeStampSendiri,LokasiSendiri,PohonSendiri,TinggiSendiri,DiameterSendiri,FotoSendiri
+    User,
+    UserName,
+    IDPerjalanan,
+    TimeStampPerjalanan,
+    Dist,
+    Moda,
+    Penumpang,
+    CO2,
+    CO,
+    NOX,
+    SO2,
+    PM2,
+    ID_transaction,
+    TimeStampTransactions,
+    Waktu,
+    JumlahDana,
+    StatusTransaction,
+    TimeStampBersamaMitra,
+    PartnerPenanamBersamaMitra,
+    JumlahPohonBersamaMitra,
+    JumlahEmisiTerserapBersamaMitra,
+    JenisPohonBersamaMitra,
+    TimeStampSendiri,
+    LokasiSendiri,
+    PohonSendiri,
+    TinggiSendiri,
+    DiameterSendiri,
+    FotoSendiri
     ),
 columns=[
-    'ID_User','Name','Trip_ID','Trip_TimeStamp','Trip_Distance_km','Trip_Mode','Trip_Passenger','Trip_CO2_kg','Trip_CO_kg','Trip_NOX_kg','Trip_SO2_kg','Trip_PM2_kg',
-    'Transaction_ID',"Transaction_TimeStamp",'Transaction_Interval_inDays','Transaction_Amount','Transaction_Status',
-    'BersamaMitra_TimeStamp','BersamaMitra_PartnerPenanam','BersamaMitra_JumlahPohon','BersamaMitra_EmisiTerserap_in_kg',
-    'TanamSendiri_TimeStamp','TanamSendiri_Lokasi','TanamSendiri_JenisPohon','TanamSendiri_TinggiPohon','TanamSendiri_Keliling_cm','TanamSendiri_Foto'
+    'ID_User',
+    'Name',
+    'Trip_ID',
+    'Trip_TimeStamp',
+    'Trip_Distance_km',
+    'Trip_Mode',
+    'Trip_Passenger',
+    'Trip_CO2_kg',
+    'Trip_CO_kg',
+    'Trip_NOX_kg',
+    'Trip_SO2_kg',
+    'Trip_PM2_kg',
+    'Transaction_ID',
+    "Transaction_TimeStamp",
+    'Transaction_Interval_inDays',
+    'Transaction_Amount',
+    'Transaction_Status',
+    'BersamaMitra_TimeStamp',
+    'BersamaMitra_PartnerPenanam',
+    'BersamaMitra_JumlahPohon',
+    'BersamaMitra_EmisiTerserap_in_kg',
+    'BersamaMitra_JenisPohon',
+    'TanamSendiri_TimeStamp',
+    'TanamSendiri_Lokasi',
+    'TanamSendiri_JenisPohon',
+    'TanamSendiri_TinggiPohon',
+    'TanamSendiri_Keliling_cm',
+    'TanamSendiri_Foto'
     ])
 print(res.head())
 directory = './CleanData'
