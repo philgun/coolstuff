@@ -1,0 +1,25 @@
+#Cut-off 17 Aug 2020
+1. Frekuensi pemakaian per user
+2. Mengimprove apps
+3. Segmentasi user sekarang, supaya kita bisa tahu kita tuh udah ngetap-in pasar yang man
+4. Orang mana sih banyaknya? Jakarta, Bogor?
+	-Penggunaan moda untuk perjalanan, persebaran KM, persebaran moda
+	-Global mode yang sudah tercatat
+	-Pilihan yang menanam bersama partner itu pada ke partner siapa sih? Apa pohonnya?
+	-Majority yang diserap itu muingguan tahunan bulanan harian?
+	-Frekuensi pengisian user, how regular? 2 minggu sekali, 1 minggu berapa kali? Pattern nya gimana?
+	-Orang yang regular itu siapa, belongs ke mana?
+	-#Rute perjalanan
+	-Correlation mode dengan keputusan penyerapan? Berapa perjalanan pribadi vs. penyerapan?
+	-Siapa sih yang bayar? Motor atau Mobil atau Kereta atau Bus
+	-Hari apa pada bayar?
+	-Average pencatatan transportasi per orang
+	
+
+5. Transfer knowledge!
+
+Liat per User ID, bagi per tanggal. Bikin metric baru. km ~ buruk, motor mobil angkot bus kereta jalan kaki, penumpang.
+	km * moda() / penumpang
+
+6. Apps ==> drop down menu for Alamat! Please make alamat compulsary during signup. This data is important
+7. Jangan pake user name aneh2 kalau mau coba. Use 1 username only supaya cleaning datanya mudah.

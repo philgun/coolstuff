@@ -70,8 +70,7 @@ def hackmofile(mofile,modir,P_net,index=25):
         g.close()
         i+=1
 
-    print('./%s'%(fnres))
-    print('./%s.mo'%(mofile))
     f.close()
     os.system('rm -rf %s.mo'%(mofile))
     os.rename('./%s'%(fnres),'./%s.mo'%(mofile))
+    print("Done hacking!")

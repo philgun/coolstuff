@@ -1,0 +1,2 @@
+st_simulate --np=0 --stop 1 --step 0.002 --integOrder 5 --tolerance 1e-06 --solver dassl --nls homotopy sCO2PBCalculator_Using_PinchPHX.mo T_in_ref_blk=1229.6 p_high=21923669.79 PR=3.01 delta=93.87 pinch_PHX=24.05 load=0.87 T_HTF_in=1216.99 T_amb_input=313.32 
+900 P_net=150000000.0

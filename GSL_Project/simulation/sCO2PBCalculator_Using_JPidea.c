@@ -1513,7 +1513,7 @@ void sCO2PBCalculator_Using_JPidea_setupDataStruc(DATA *data, threadData_t *thre
   data->modelData->modelFilePrefix = "sCO2PBCalculator_Using_JPidea";
   data->modelData->resultFileName = NULL;
   data->modelData->modelDir = "/home/philgun/Documents/codecodecode/codecodecode/GSL_Project/simulation";
-  data->modelData->modelGUID = "{4a426e76-8af8-4216-8d73-32ebe21ffd15}";
+  data->modelData->modelGUID = "{bc57991d-51d7-4625-8245-361c6d9d667b}";
   #if defined(OPENMODELICA_XML_FROM_FILE_AT_RUNTIME)
   data->modelData->initXMLData = NULL;
   data->modelData->modelDataXml.infoXMLData = NULL;

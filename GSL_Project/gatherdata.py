@@ -9,6 +9,10 @@ from itertools import combinations, permutations
 from scipy.optimize import curve_fit
 from sklearn.preprocessing import MinMaxScaler
 from matplotlib import pyplot as plt
+from solartherm import simulation
+from functools import partial
+from solartherm import postproc
+import itertools
 
 def gather_data(inputs):
 	start = time.time()
@@ -28,7 +32,7 @@ def gather_data(inputs):
 	print(P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX,numdata,dirres)
 
 	cwd = os.getcwd()
-	resdir = "%s/%s"%(cwd,dirres)
+	resdir = "%s"%(dirres)
 	simdir = "%s/simulation"%(cwd)
 	
 	#Writedown the PB design configuration
@@ -61,13 +65,20 @@ def gather_data(inputs):
 	LHS = lib.generate_lhs(UB,LB,3,numdata)
 
 	#Copy the mofile to simulationdir
-	os.system('cp /home/philgun/solartherm-particle/SolarTherm/Models/PowerBlocks/%s.mo .')
+	os.system('cp /home/philgun/solartherm-particle/SolarTherm/Models/PowerBlocks/%s.mo .'%mofile)
 
 	#Hack mo file to change the P_net
 	lib.hackmofile(mofile,'./',P_net,index=21)
+
+	#Compile the mofile
+	sim = simulation.Simulator("%s.mo"%mofile,suffix="0")
+	sim.compile_model()
+	sim.compile_sim()
+
+	resultclass = postproc.SimResultElec
 	
 	#Gather training data
-	simulation_engine(LHS,fntrain,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX)
+	simulation_engine(LHS,fntrain,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX,sim)
 
 	#Gather validation data
 	datatrain = np.genfromtxt(fntrain, delimiter=',',skip_header=1)
@@ -77,7 +88,7 @@ def gather_data(inputs):
 	LHS = lib.generate_lhs(UB,LB,3,numval)
 	fnval = "%s/validation_data.csv"%(resdir)
 
-	simulation_engine(LHS,fnval,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX)
+	simulation_engine(LHS,fnval,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX,sim)
 
 	processing_data(fntrain,resdir)
 
@@ -239,8 +250,7 @@ def processing_data(fntrain,resdir):
 	print("DATAMIN : ",mm.data_min_)
 	#plt.show()
 
-def simulation_engine(LHS,fn,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX):
-
+def simulation_engine(LHS,fn,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX,sim):
 	#Check whether the file exist or not
 	def FileCheck(fn):
 		try:
@@ -249,7 +259,6 @@ def simulation_engine(LHS,fn,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR
 		except IOError:
 			return 0
 			
-
 	#Create a file to dump the modelica simulation result -  write the heading if file doesn't exist
 	existence = FileCheck(fn)
 	if existence == 0:
@@ -261,17 +270,35 @@ def simulation_engine(LHS,fn,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR
 		f.write(write)
 		f.close()
 
+	#Get the variable names that will be overwrite
+	par_n = []	
+	for index in range(len(modelicavarname)):
+		par_n.append(modelicavarname[index])
+		if index == 7:
+			break
+	
 	for operation_param in LHS:
-		cmd = 'st_simulate --np=0 --nls homotopy --stop 1000s --solver dassl %s.mo T_in_ref_blk=%s p_high=%s PR=%s pinch_PHX=%s dTemp_HTF_PHX=%s '%(mofile,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX)
-		
+		par_v = []
+
+		#Appending base variables
+		par_v.append(str(T_in_ref_blk))
+		par_v.append(str(p_high))
+		par_v.append(str(PR))
+		par_v.append(str(pinch_PHX))
+		par_v.append(str(dTemp_HTF_PHX))
+
+		print("Changed parameters: \n")
 		for i in range(5,len(modelicavarname)-2):
-			cmd+='%s=%s '%(modelicavarname[i],round(operation_param[i-5],2))
+			par_v.append(str(round(operation_param[i-5],2)))
 		
-		print(cmd)
-		
-		#solartherm.Simulator
-		os.system(cmd)
-		
+		for iters in range(len(par_v)):
+			print("%s = %s\n"%(par_n[iters],par_v[iters]))
+
+		#Updating parameters
+		sim.load_init()
+		sim.update_pars(par_n,par_v)
+		sim.simulate(start="0",stop="1",step="1",tolerance="1e-06",integOrder="5",solver="dassl",nls="homotopy")
+
 		#Read Data
 		data = D('%s_res_0.mat'%mofile)
 
@@ -297,12 +324,28 @@ def simulation_engine(LHS,fn,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR
 		f.close()
 
 	#Simulating full load
-	cmd = 'st_simulate --np=0 --nls homotopy --solver dassl %s.mo T_in_ref_blk=%s p_high=%s PR=%s pinch_PHX=%s dTemp_HTF_PHX=%s load=1 T_HTF_in=%s T_amb_input=312.15'%(mofile,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX,T_in_ref_blk)
-	print(cmd)	
-	os.system(cmd)
+	par_v = []
+
+	#Appending base variables
+	par_v.append(str(T_in_ref_blk))
+	par_v.append(str(p_high))
+	par_v.append(str(PR))
+	par_v.append(str(pinch_PHX))
+	par_v.append(str(dTemp_HTF_PHX))
+
+	#Appending operational variables at design point, load = 1, T_HTF_IN = T_in_ref_blk, T_amb_des = 312.15, 
+	par_v.append(str(1))
+	par_v.append(str(T_in_ref_blk))
+	par_v.append(str(312.15))
+	
+	#Updating parameters and run the simulation
+	sim.load_init()
+	sim.update_pars(par_n,par_v)
+	sim.simulate(start="0",stop="1",step="1",tolerance="1e-06",integOrder="5",solver="dassl",nls="homotopy")
 
 	#Read Data
 	data = D('%s_res_0.mat'%mofile)
+
 	#Check validity
 	eta_gross_array = data.data('eta_gross')
 	eta_Q_array = data.data('eta_Q')
@@ -331,7 +374,7 @@ if __name__ == "__main__":
 	PR = 2.98
 	pinch_PHX = 23.67
 	dTemp_HTF_PHX = 238.45
-	numdata = 2
+	numdata = 10
 	dirres = "."
 	
 	inputs = {

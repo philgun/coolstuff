@@ -1,0 +1,2 @@
+st_simulate --np=0 --stop 1 --step 0.002 --integOrder 5 --tolerance 1e-06 --solver dassl --nls homotopy sCO2PBCalculator_Using_JPidea.mo T_in_ref_blk=1202.68 p_high=23878303.69 PR=2.9 pinch_PHX=17.2 dTemp_HTF_PHX=226.54 load=0.83 T_HTF_in=1198.12 T_amb_input=272.49 
+90 P_net=150000000.0
