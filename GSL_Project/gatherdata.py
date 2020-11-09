@@ -1,7 +1,7 @@
 import numpy as np
 from DyMat import DyMatFile as D
 import os
-import python_lib as lib
+import libgatherdata as lib
 import time
 import shutil
 import pandas as pd
@@ -28,26 +28,28 @@ def gather_data(inputs):
 	dTemp_HTF_PHX = inputs["dTemp_HTF_PHX"]
 	numdata = inputs["numdata"]
 	dirres= inputs["dirres"]
-
-	print(P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX,numdata,dirres)
+	new_config = inputs["status_config"]
+	SolarTherm_path = inputs["SolarTherm_path"]
 
 	cwd = os.getcwd()
 	resdir = "%s"%(dirres)
 	simdir = "%s/simulation"%(cwd)
 	
 	#Writedown the PB design configuration
-	configdir = "%s/configurations-dummy"%(cwd)
+	configdir = "%s/configurations"%(cwd)
 	fnconfig = "%s/config0.txt"%(configdir)
 	index = 0
-	
-	while os.path.exists(fnconfig):
-		index+=1
-		fnconfig = "%s/config%s.txt"%(configdir,index)
-	
-	#f = open(fnconfig,'w')
-	#f.write('P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX\n')
-	#f.write('%s,%s,%s,%s,%s,%s\n'%(P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX))
-	#f.close()
+
+	if new_config == 1:
+		while os.path.exists(fnconfig):
+			index+=1
+			fnconfig = "%s/config%s.txt"%(configdir,index)
+			
+		#Writing a new config file
+		f = open(fnconfig,'w')
+		f.write('P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX\n')
+		f.write('%s,%s,%s,%s,%s,%s\n'%(P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX))
+		f.close()
 
 	#Writing the resfile
 	if not os.path.exists(resdir):
@@ -65,7 +67,7 @@ def gather_data(inputs):
 	LHS = lib.generate_lhs(UB,LB,3,numdata)
 
 	#Copy the mofile to simulationdir
-	os.system('cp /home/philgun/solartherm-particle/SolarTherm/Models/PowerBlocks/%s.mo .'%mofile)
+	shutil.copy("%s/Models/PowerBlocks/%s.mo"%(SolarTherm_path,mofile),".")
 
 	#Hack mo file to change the P_net
 	lib.hackmofile(mofile,'./',P_net,index=21)
@@ -82,7 +84,6 @@ def gather_data(inputs):
 
 	#Gather validation data
 	datatrain = np.genfromtxt(fntrain, delimiter=',',skip_header=1)
-	print(datatrain)
 	num = datatrain.shape[0]
 	numval = int(0.3 * num)
 	LHS = lib.generate_lhs(UB,LB,3,numval)
@@ -90,12 +91,19 @@ def gather_data(inputs):
 
 	simulation_engine(LHS,fnval,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR,pinch_PHX,dTemp_HTF_PHX,sim)
 
-	processing_data(fntrain,resdir)
+	inputpreprocessing = {}
+	inputpreprocessing["fntrain"] = fntrain
+	inputpreprocessing["resdir"] = resdir
+ 
+	processing_data(inputpreprocessing)
 
 	#return back to CWD
 	os.chdir(cwd)
 
-def processing_data(fntrain,resdir):	
+def processing_data(inputpreprocessing):
+	fntrain = inputpreprocessing["fntrain"]
+	resdir  = inputpreprocessing["resdir"]
+		
 	#Prep training data - Prep for NN training
 	df = pd.read_csv(fntrain)
 	rows = df.shape[0]
@@ -287,16 +295,14 @@ def simulation_engine(LHS,fn,modelicavarname,mofile,P_net,T_in_ref_blk,p_high,PR
 		par_v.append(str(pinch_PHX))
 		par_v.append(str(dTemp_HTF_PHX))
 
-		print("Changed parameters: \n")
 		for i in range(5,len(modelicavarname)-2):
 			par_v.append(str(round(operation_param[i-5],2)))
 		
-		for iters in range(len(par_v)):
-			print("%s = %s\n"%(par_n[iters],par_v[iters]))
-
 		#Updating parameters
 		sim.load_init()
 		sim.update_pars(par_n,par_v)
+		
+		#Start simulation
 		sim.simulate(start="0",stop="1",step="1",tolerance="1e-06",integOrder="5",solver="dassl",nls="homotopy")
 
 		#Read Data
@@ -376,10 +382,11 @@ if __name__ == "__main__":
 	dTemp_HTF_PHX = 238.45
 	numdata = 10
 	dirres = "."
+	new_config = 0
 	
 	inputs = {
 		"P_net":P_net,"T_in_ref_blk":T_in_ref_blk,"p_high":p_high,"PR":PR,"pinch_PHX":pinch_PHX,"dTemp_HTF_PHX":dTemp_HTF_PHX,
-		"numdata":numdata,"dirres":dirres
+		"numdata":numdata,"dirres":dirres,"status_config":new_config
 		}
 	gather_data(inputs)
 
