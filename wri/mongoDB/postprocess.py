@@ -84,7 +84,7 @@ for mode in unique_mode:
     km_moda.append(k)
 
 fig,ax = plt.subplots()
-
+'''
 pie = ax.pie(
     count_mode,
     startangle=90,
@@ -101,7 +101,7 @@ ax.set_title(
     fontsize=med,
     pad=20)
 plt.show()
-
+'''
 
 
 fig,ax = plt.subplots()

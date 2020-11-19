@@ -414,6 +414,8 @@ for i in range(len(dftrips)):
 
     elif islistofdict:
         for b in routes:
+            if itermoda==len(moda):
+                itermoda = itermoda-1
             if b == None:
                 Dist.append(int(-1000))
                 User.append(user)

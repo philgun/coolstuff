@@ -54,6 +54,13 @@ typedef struct Kriging_struct
     double deviation_T_amb_min;
     double deviation_eta_gross_min;
     double deviation_eta_Q_min;
+    
+    /*This section below is to store all the LHS matrix -- from known to known points*/
+    gsl_matrix* DISTANCE_LHS;
+    gsl_matrix* VARIOGRAM_LHS;
+    gsl_matrix* COVARIANCE_LHS;
+    gsl_matrix* INVERSE; 
+
 }Kriging_struct;
 
 typedef struct  /*Struct to store neccesary session properties*/
