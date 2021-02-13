@@ -1,5 +1,7 @@
 import numpy as np 
 import pandas as pd
+import matplotlib
+matplotlib.use('TkAgg')
 from matplotlib import pyplot as plt
 import seaborn as sns
 import datetime
@@ -147,6 +149,9 @@ plt.show()
 
 #Info mitra
 jumlah_transaksi = len(df[df.Transaction_Amount > 0])
+print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n\n\n\n")
+print(df[(df.Transaction_Amount>0) & (df.Transaction_TimeStamp > pd.Timestamp(datetime.date(year=2020,month=12,day=31)))])
+print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n\n\n\n")
 total_transaksi = df['Transaction_Amount'].sum()
 m = df.BersamaMitra_PartnerPenanam.unique()
 mitra = [M for M in m if str(M)!='nan']

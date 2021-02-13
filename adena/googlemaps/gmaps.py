@@ -7,6 +7,7 @@ import pprint
 import math
 import numpy as np
 import pandas as pd
+import os
 
 #Finding coordinates,placeID and territory boundaries from a given address
 def extract_lat_long(address_or_postalcode,dtype="json"):
@@ -38,6 +39,7 @@ def nearbysearch(lat,long,radius,keyword='Coffee Shop',api_key=apikey.apikey):
 
     params_places_2_encoded = urlencode(params_places_2)
     url = "%s?%s"%(places_endpoint_2,params_places_2_encoded)
+    print(url)
     r2 = requests.get(url)
     json_master.append(r2.json())
     keys = r2.json().keys()
@@ -65,73 +67,98 @@ def collection_lat_long(north,east,south,west,radius):
             lon_series.append(lon)
     return lat_series,lon_series
 
-lat,long,placeID,boundSW,boundNE = extract_lat_long("Jakarta Selatan")
-keywords = "Starbucks"
-fnres = "Starbucks.csv"
-radius = 500
 
-north = boundNE['lat']
-east = boundNE['lng']
-south = boundSW['lat']
-west = boundSW['lng']
+if __name__ == "__main__":
+    df = pd.read_csv("kotabelum.csv")
+    places = df.KotaBesar
+    for i in range (len(places)): 
+        #Joining the province name into one string
+        prov = df.Provinsi.iloc[i]
+        text = prov.split()
+        namedir = "".join(text)
+        if i==3:
+            break
 
-#Obtain the coordinates inside boundary in respect of the search radius
-lat_series,lon_series = collection_lat_long(north,east,south,west,radius)
+        #Joining the city name into one string
+        place = df.KotaBesar.iloc[i]
+        text = place.split()
+        namecity = "".join(text)
 
-print(len(lat_series))
-#Search nearby coffee shop in lat_series,lon_series coordinates with respect of radius of search
-iter = 0
-json_master = []
+        keywords = "TIKI"
+        if not os.path.exists("./DataTIKIKotaBesar/%s"%namedir):
+            os.makedirs("./DataTIKIKotaBesar/%s"%namedir)
+        fnres = "./DataTIKIKotaBesar/%s/TIKI_%s.csv"%(namedir,namecity)
+        print(fnres)
+        radius = 500
 
-for i in range(len(lat_series)):
-    lati = lat_series[i]
-    longi = lon_series[i]
-    res = nearbysearch(lati,longi,radius,keywords)
-    json_master.append(res)
-    print(len(json_master))
-    iter += 1
-    print("json num:",iter)
+        lat,long,placeID,boundSW,boundNE = extract_lat_long(place)
+
+        north = boundNE['lat']
+        east = boundNE['lng']
+        south = boundSW['lat']
+        west = boundSW['lng']
+
+        #Obtain the coordinates inside boundary in respect of the search radius
+        lat_series,lon_series = collection_lat_long(north,east,south,west,radius)
+
+        print(len(lat_series))
+        #Search nearby coffee shop in lat_series,lon_series coordinates with respect of radius of search
+        iter = 0
+        json_master = []
+
+        for i in range(len(lat_series)):
+            lati = lat_series[i]
+            longi = lon_series[i]
+            print(lati,longi)
+            res = nearbysearch(lati,longi,radius,keywords)
+            json_master.append(res)
+            print(len(json_master))
+            iter += 1
+            print("json num:",iter)
+            if i == 10:
+                break
+
+        #Post processing data
+        print(json_master)
+        name = []
+        lat = []
+        lon = []
+        rating = []
+        numberofuser = []
+        vicinity = []
+        for i in range(len(json_master)):
+            for j in range(len(json_master[i])):
+                for k in range(len(json_master[i][j]['results'])):
+                    data = json_master[i][j]['results'][k]
+
+                    print(data)
+
+                    n = data['name']
+                    vic = data['vicinity']
+
+                    print("\n\n\n")
+                    similar = 0
+                    for l in range(len(name)):
+                        if n == name[l] and vic == vicinity[l]:
+                            similar += 1
+                    
+                    if similar == 0:
+                        name.append(n)
+                        rate = data['rating']
+                        rating.append(rate)
+                        numrate=data['user_ratings_total']
+                        numberofuser.append(numrate)
+
+                        latitude,longitude = data['geometry']['location']['lat'],data['geometry']['location']['lng']
+                        lat.append(latitude)
+                        lon.append(longitude)
+
+                        vic = data['vicinity']
+                        vicinity.append(vic)
 
 
-#Post processing data
-name = []
-lat = []
-lon = []
-rating = []
-numberofuser = []
-vicinity = []
-for i in range(len(json_master)):
-    for j in range(len(json_master[i])):
-        for k in range(len(json_master[i][j]['results'])):
-            data = json_master[i][j]['results'][k]
+        df_res = pd.DataFrame(zip(name,rating,numberofuser,vicinity,lat,lon),columns=['Name','Rating','NumberOfUser','Address','lat','lon'])
+        df_res.to_csv(fnres,index=False)
 
-            n = data['name']
-            vic = data['vicinity']
-
-            similar = 0
-            for l in range(len(name)):
-                if n == name[l] and vic == vicinity[l]:
-                    similar += 1
-            
-            if similar == 0:
-                name.append(n)
-
-                rate = data['rating']
-                rating.append(rate)
-
-                numrate=data['user_ratings_total']
-                numberofuser.append(numrate)
-
-                latitude,longitude = data['geometry']['location']['lat'],data['geometry']['location']['lng']
-                lat.append(latitude)
-                lon.append(longitude)
-
-                vic = data['vicinity']
-                vicinity.append(vic)
-
-df = pd.DataFrame(zip(name,rating,numberofuser,vicinity,lat,lon),columns=['Name','Rating','NumberOfUser','Address','lat','lon'])
-
-df.to_csv(fnres,index=False)
-
-#base endpoint:
-#https://maps.googleapis.com/maps/api/place/nearbysearch/json?pagetoken=%@&key=MY_API_KEY",nextPageToken
+        #base endpoint:
+        #https://maps.googleapis.com/maps/api/place/nearbysearch/json?pagetoken=%@&key=MY_API_KEY",nextPageToken
