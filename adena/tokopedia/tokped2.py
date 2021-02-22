@@ -3,34 +3,13 @@ from bs4 import BeautifulSoup
 import time
 import requests
 from pprint import pprint
-from lib2 import Shell,OuterProduct,Merchant,BestProduct
+from lib import Shell,OuterProduct,Merchant,BestProduct
 
-MerchantName = []
-Followers = []
-ProdukTerjual = []
-Bintang = []
-Ulasan = []
 
-FirstProduct_Name = []
-FirstProduct_Qty = []
-FirstProduct_Price = []
-FirstProduct_Size = []
-
-SecondProduct_Name = []
-SecondProduct_Qty = []
-SecondProduct_Price = []
-SecondProduct_Size = []
-
-ThirdProduct_Name = []
-ThirdProduct_Qty = []
-ThirdProduct_Price = []
-ThirdProduct_Size = []
-
-#Link to Tokped
 kwords = 'kopi'
 
 #Loop should start here i.e. for numpage in str(NUMPAGE):
-numpage = '6'
+numpage = '1'
 baseURL = 'https://www.tokopedia.com/search?st=product&q='
 URL = baseURL+kwords+'&page='+numpage
 
@@ -44,7 +23,7 @@ driver.get(URL)
 res = driver.execute_script('return document.documentElement.outerHTML')
 
 #Create BS object
-soup = BeautifulSoup(res, 'lxml')
+soup = BeautifulSoup(res, 'html.parser')
 ShellClass = Shell(soup)
 productwrapper = ShellClass.getProductWrapper()
 
