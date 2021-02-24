@@ -9,16 +9,22 @@ import numpy as np
 import pprint
 import json
 import time
-
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
 '''
 https://stackoverflow.com/questions/50642308/webdriverexception-unknown-error-devtoolsactiveport-file-doesnt-exist-while-t
 '''
+
 options = webdriver.ChromeOptions()
+
 options.add_argument('headless')
+options.add_argument(f'user-agent={user_agent}')
+options.add_argument("start-maximized")
+options.add_argument('--window-size=1920,1080')
 options.add_argument('--disable-infobars')
+options.add_argument('--disable-extensions')
 options.add_argument('--disable-dev-shm-usage')
 options.add_argument('--no-sandbox')
-options.add_argument('--remote-debugging-port=9222')
+#options.add_argument('--remote-debugging-port=9222')
 
 pp = pprint.PrettyPrinter()
 
