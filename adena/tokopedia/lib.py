@@ -8,6 +8,7 @@ import lxml
 import numpy as np
 import pprint
 import json
+import time
 
 '''
 https://stackoverflow.com/questions/50642308/webdriverexception-unknown-error-devtoolsactiveport-file-doesnt-exist-while-t
@@ -43,14 +44,17 @@ class merchant(object):
 
     def getStoreInfo(self):
         #Method to scrap essential overview data from one merchant
-        #return a dictionary
         self.storeInfoContainer = self.main_class.find_all("div",class_="css-1p0pkw3 e1ufc1ph0")[-1]
+
+        #Scrap the store name and location
         self.storeName = self.storeInfoContainer.find_all("h1", class_="css-1i6886t")[-1].text
         self.location = self.storeInfoContainer.find_all("p", class_="css-dxunmy-unf-heading e1qvo2ff8")[-1].text
 
+        #Scrap the overview sales of a store
         self.storeOverviewSales = self.main_class.find_all("div",class_="css-1pzufdd e1ufc1ph0")[-1]
         self.soldProducts = self.storeOverviewSales.find_all("h2",class_="css-lzwncz-unf-heading e1qvo2ff2")[-1].text
         
+        #Since the overview sales of a store is stored using string e.g. 113.5K, I clean it
         multiplier = 1
         alphabet = "A"
         for c in self.soldProducts:
@@ -64,13 +68,16 @@ class merchant(object):
         self.soldProducts = self.soldProducts.strip(alphabet)
         self.soldProducts = float(self.soldProducts) * multiplier
 
+        #Scrap the star (rating) of a store
         self.storeStar = self.storeOverviewSales.find_all("h2",class_="css-rfs3ih-unf-heading e1qvo2ff2")[-1].text
         self.storeStar = float(self.storeStar)
 
+        #Scrap how many reviews the store has got
         self.review = self.storeOverviewSales.find_all("h6",class_="css-1s96mum-unf-heading e1qvo2ff6")[-1].text
         self.review = self.review.strip("() Ulasan")
         self.review = float(self.review)
 
+        #Scrap since when the store has open fo business
         self.etcContainer = self.main_class.find_all("div",class_="css-1gp0czb epavnfa0")
         
         for e in self.etcContainer:
@@ -82,18 +89,7 @@ class merchant(object):
                 if ''.join(chars) == "Buka Sejak":
                     break
             
-        self.since = string[i+10:]
-
-        '''   
-        self.dictionary_overview = {
-            "Store name":self.storeName,
-            "Location":self.location,
-            "Open since":self.since,
-            "Total goods sold":self.soldProducts,
-            "Store star":self.storeStar,
-            "Reviews":self.review
-        }
-        '''        
+        self.since = string[i+10:]    
     
     def getProductLinks(self):
         self.productClasses = self.soup_merchant.find_all("div", class_="css-1sn1xa2")
@@ -120,7 +116,7 @@ class merchant(object):
 
                 #scrolldown(Chrome)
                 
-                #Take the data
+                #Take the HTML data
                 res_product = Chrome.execute_script('return document.documentElement.outerHTML')
             
                 #create BS object
@@ -134,11 +130,11 @@ class merchant(object):
                 #Product Name
                 productName = self.productInfoContainer.find_all("h1",class_="css-v7vvdw")[-1].text
 
-                #Qty Soldtest
+                #Qty sold
                 test = self.productInfoContainer.find(text="Terjual")
 
-                #If the product has not sold yet
                 if test is not None:
+                    #If the product has been sold
                     soldQty = self.productInfoContainer.find_all("div",attrs={"data-testid" : "lblPDPDetailProductSoldCounter"})[-1].text
                     soldQty = soldQty.replace("Terjual ","")
 
@@ -150,14 +146,17 @@ class merchant(object):
                         soldQty = soldQty.replace(".","")
                         soldQty = float(soldQty)
                 else:
+                    #If the product has not sold yet
                     soldQty = 0
 
-                #Number of star
+                #Product's rating
                 productStar = self.productInfoContainer.find_all("span",class_="main",attrs={"data-testid":"lblPDPDetailProductRatingNumber"})
 
                 if len(productStar) > 0:
+                    #If product has been rated
                     productStar = float(productStar[-1].text)
                 else:
+                    #If product has not been rated
                     productStar = 0.0
 
                 #Price
@@ -169,13 +168,14 @@ class merchant(object):
                 #Strip .
                 price = price.replace(".","")
                 
-                #Change to float
+                #Change dtype from string to float
                 price = float(price)
 
-                #Ulasan
+                #Scrap number of reviews the product has got
                 rev = self.productInfoContainer.find_all("span",attrs={"data-testid":"lblPDPDetailProductRatingCounter"})
 
                 if len(rev) > 0:
+                    #If the product has been reviewed
                     rev = rev[-1].text
                     rev = rev.replace(" ulasan","")
                     rev = rev.replace("(","")
@@ -189,24 +189,28 @@ class merchant(object):
                         rev = rev.replace(".","")
                         rev = int(rev)
                 else:
+                    #If the product has not been reviewed
                     rev = int(0)
 
-                #Weight
+                #Scrap the weight of the product
                 self.productWeightContainer = self.productMainClass.find_all(attrs={"data-testid":"lblPDPInfoProduk"})[-1].find_all("li")
                 
                 weight = -1234.0
-                category = "NA"
                 for a in self.productWeightContainer:
                     aa = a.find_all("span")
                     for b in aa:
                         t = b.text
                         if "Gram" in t:
+                            #If the HTML.text contains "Gram", means it is the right text we want to scrap
                             t = t.replace(" Gram","")
                             t = t.replace("Berat: ","")
                             t = t.replace(".","")
-                            weight = float(t) - 100
+                            
+                            #Change the dtype from string to float
+                            weight = float(t)
 
                 #Category
+                category = "NA"
                 gg = []
                 for c in self.productWeightContainer:
                     cc = c.find_all("a")
@@ -215,8 +219,15 @@ class merchant(object):
                             strings = dd.text
                             gg.append(strings)
                 
+                #gg[0] = product category (universal categorisation in Tokopedia)
+                #gg[1] = product shelf (not interested in this one since it is store-specific)
                 cat = gg[0]
-                print(cat)                
+                
+                #If the category of the product is cofee beans, then substract the weight of the container. In Tokopedia most of the merchants use 100 gram container
+                if cat == "Biji Kopi":
+                    weight = weight - 100.0
+
+                print(weight,cat)                
         
                 #Create a dictionary inside store name products to store data related to 1 product
                 merchantDict[self.storeName]["Products"][productName] = {
@@ -229,14 +240,18 @@ class merchant(object):
                     "Product category": cat
                 }
 
+                #Test print
                 pp.pprint(merchantDict)
 
+                #Close webdriver
                 Chrome.close()
-            
+
+                #Dump the data
                 with open("tokpedData.json","w") as f:
                     json.dump(merchantDict, f)
         
 
+#Function to scroll down the web
 def scrolldown(driver):
     lastHeight = driver.execute_script("return document.body.scrollHeight")
 
@@ -261,7 +276,7 @@ if __name__=='__main__':
 
     #Dictionary to store everything
     masterdata = {}
-    
+
     for page in PAGES:        
         URL = baseURL+"search?page=%s&q=%s&st=shop"%(int(page),kwords)
        
@@ -309,16 +324,12 @@ if __name__=='__main__':
 
             #Into the merchant dict, insert another dict for storing products data
             masterdata[shop.storeName]["Products"] = {}
-
-            #Test print
-            #print(masterdata)
             
             #Get product links
             shop.getProductLinks()
 
             #Scrap product data
-            shop.scrapProductData(masterdata)    
-
+            shop.scrapProductData(masterdata)   
 
             
 
