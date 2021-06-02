@@ -59,8 +59,8 @@ class Waste(object):
 
             #LHS for part of the waste into open burning, controlled landfill and landfilled
             #         [     OB      ,     CL       ,  LF       ]
-            self.UB = [0.059 * 1.2, 1.2 * 5.43e-3, 0.489 * 1.2]
-            self.LB = [0.059 * 0.8, 0.8 * 5.43e-3, 0.489 * 0.8]
+            self.UB = [0.059 * 1.2, 1.2 * 5.43e-3, 0.479 * 1.2]
+            self.LB = [0.059 * 0.8, 0.8 * 5.43e-3, 0.479 * 0.8]
 
             self.LHS_OB_CL_LF = self.generate_LHS(
                 self.UB, self.LB, len(self.UB), self.numdata

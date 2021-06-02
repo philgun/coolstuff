@@ -1,0 +1,2 @@
+import diffeqpy
+diffeqpy.install()
