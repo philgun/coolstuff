@@ -1,0 +1,2626 @@
+Category_id,keyword,Category
+14,gaji,Gaji
+14,pendapatan,Gaji
+13,bonus,Bonus
+6,bunga,Investasi
+6,invest,Investasi
+6,investasi,Investasi
+21,cr,Pemasukan Lainnya
+19,ayam,Makan dan Minum
+19,steak,Makan dan Minum
+19,cafe,Makan dan Minum
+19,steak,Makan dan Minum
+19,a & w,Makan dan Minum
+19,ramen,Makan dan Minum
+19,bakmi,Makan dan Minum
+19,nasi,Makan dan Minum
+19,bakso,Makan dan Minum
+19,bar,Makan dan Minum
+19,baso,Makan dan Minum
+19,chicken,Makan dan Minum
+19,breakfast,Makan dan Minum
+19,lunch,Makan dan Minum
+19,dinner,Makan dan Minum
+19,bumbu,Makan dan Minum
+19,pizza,Makan dan Minum
+19,kitchen,Makan dan Minum
+19,chef,Makan dan Minum
+19,food,Makan dan Minum
+19,kopi,Makan dan Minum
+19,kedai,Makan dan Minum
+19,club,Makan dan Minum
+19,suki,Makan dan Minum
+19,bistro,Makan dan Minum
+19,d' cost,Makan dan Minum
+19,burger,Makan dan Minum
+19,dumpling,Makan dan Minum
+19,coffee,Makan dan Minum
+19,dapur,Makan dan Minum
+19,bread,Makan dan Minum
+19,fish,Makan dan Minum
+19,gado gado,Makan dan Minum
+19,teppan,Makan dan Minum
+19,hokben,Makan dan Minum
+19,hungry,Makan dan Minum
+19,hangry,Makan dan Minum
+19,sushi,Makan dan Minum
+19,cakery,Makan dan Minum
+19,fried,Makan dan Minum
+19,kafe,Makan dan Minum
+19,kopitiam,Makan dan Minum
+19,bbq,Makan dan Minum
+19,barbercue,Makan dan Minum
+19,barberque,Makan dan Minum
+19,shabu shabu,Makan dan Minum
+19,udon,Makan dan Minum
+19,mie,Makan dan Minum
+19,beer,Makan dan Minum
+19,patisserie,Makan dan Minum
+19,mcd,Makan dan Minum
+19,mcdonalds,Makan dan Minum
+19,grill,Makan dan Minum
+19,pancake,Makan dan Minum
+19,resto,Makan dan Minum
+19,cuisine,Makan dan Minum
+19,bun,Makan dan Minum
+19,pasta,Makan dan Minum
+19,iga,Makan dan Minum
+19,seafood,Makan dan Minum
+19,duck,Makan dan Minum
+19,resep,Makan dan Minum
+19,richeese,Makan dan Minum
+19,riung,Makan dan Minum
+19,sate,Makan dan Minum
+19,recipe,Makan dan Minum
+19,sederhana,Makan dan Minum
+19,rice,Makan dan Minum
+19,solaria,Makan dan Minum
+19,starbucks,Makan dan Minum
+19,ta wan,Makan dan Minum
+19,noodle,Makan dan Minum
+19,soup,Makan dan Minum
+19,cake,Makan dan Minum
+19,waroeng,Makan dan Minum
+19,wendy,Makan dan Minum
+19,yoshinoya,Makan dan Minum
+19,dimsum,Makan dan Minum
+19,abalone,Makan dan Minum
+19,bakar,Makan dan Minum
+19,goreng,Makan dan Minum
+19,angus,Makan dan Minum
+19,bake,Makan dan Minum
+19,bread,Makan dan Minum
+19,bakul,Makan dan Minum
+19,beautika,Makan dan Minum
+19,bubur,Makan dan Minum
+19,porridge,Makan dan Minum
+19,cheese,Makan dan Minum
+19,chopstix,Makan dan Minum
+19,cream,Makan dan Minum
+19,milk,Makan dan Minum
+19,fudge,Makan dan Minum
+19,chatime,Makan dan Minum
+19,tea,Makan dan Minum
+19,restoran,Makan dan Minum
+19,dapoer,Makan dan Minum
+19,dining,Makan dan Minum
+19,ristorante,Makan dan Minum
+19,teppan,Makan dan Minum
+19,yakiniku,Makan dan Minum
+19,lounge,Makan dan Minum
+19,ikan,Makan dan Minum
+19,bakar,Makan dan Minum
+19,lamian,Makan dan Minum
+19,wine,Makan dan Minum
+19,krispy,Makan dan Minum
+19,garlic,Makan dan Minum
+19,tempura,Makan dan Minum
+19,sake,Makan dan Minum
+19,pesto,Makan dan Minum
+19,sedap,Makan dan Minum
+19,bebek,Makan dan Minum
+19,es,Makan dan Minum
+19,rawon,Makan dan Minum
+19,roti,Makan dan Minum
+19,soto,Makan dan Minum
+19,pantry,Makan dan Minum
+19,whiskey,Makan dan Minum
+19,bagel,Makan dan Minum
+19,basil,Makan dan Minum
+19,es krim,Makan dan Minum
+19,bulgogi,Makan dan Minum
+19,deli,Makan dan Minum
+19,egg,Makan dan Minum
+19,choco,Makan dan Minum
+19,jco,Makan dan Minum
+19,donat,Makan dan Minum
+19,donut,Makan dan Minum
+19,gelato,Makan dan Minum
+19,flour,Makan dan Minum
+19,gula,Makan dan Minum
+19,gyu,Makan dan Minum
+19,gyoza,Makan dan Minum
+19,katsu,Makan dan Minum
+19,lotteria,Makan dan Minum
+19,ngemil,Makan dan Minum
+19,kentang,Makan dan Minum
+19,potato,Makan dan Minum
+19,waffle,Makan dan Minum
+19,rm,Makan dan Minum
+19,tahu,Makan dan Minum
+19,sop,Makan dan Minum
+19,buntut,Makan dan Minum
+19,sapi,Makan dan Minum
+19,sayur,Makan dan Minum
+19,buah,Makan dan Minum
+19,buns,Makan dan Minum
+19,buffet,Makan dan Minum
+19,wing,Makan dan Minum
+19,kuring,Makan dan Minum
+19,vegetarian,Makan dan Minum
+19,crepe,Makan dan Minum
+19,kambing,Makan dan Minum
+19,dessert,Makan dan Minum
+19,batagor,Makan dan Minum
+19,martabak,Makan dan Minum
+19,sashimi,Makan dan Minum
+19,siomay,Makan dan Minum
+19,jajan,Makan dan Minum
+19,cemilan,Makan dan Minum
+19,snack,Makan dan Minum
+19,kfc,Makan dan Minum
+19,pempek,Makan dan Minum
+19,gudeg,Makan dan Minum
+19,masakan,Makan dan Minum
+20,indomaret,Groceries
+20,alfamart,Groceries
+20,foodhall,Groceries
+20,giant,Groceries
+20,gelael,Groceries
+20,hero,Groceries
+20,market,Groceries
+20,mart,Groceries
+20,lulu,Groceries
+20,swalayan,Groceries
+20,plaza,Groceries
+2,sogo,Belanja
+2,matahari,Belanja
+2,ramayana,Belanja
+2,uniqlo,Belanja
+2,zara,Belanja
+2,h&m,Belanja
+2,bershka,Belanja
+2,muji,Belanja
+2,metro,Belanja
+2,pull,Belanja
+2,department,Belanja
+2,mango,Belanja
+2,bata,Belanja
+2,tokopedia,Belanja
+2,shopee,Belanja
+2,lazada,Belanja
+2,blibli,Belanja
+2,mitra,Belanja
+2,informa,Belanja
+2,fashion,Belanja
+2,sport,Belanja
+2,adidas,Belanja
+2,nike,Belanja
+2,reebok,Belanja
+2,shoes,Belanja
+2,bukalapak,Belanja
+17,traveling,Liburan
+17,tour,Liburan
+17,wisata,Liburan
+17,dwidaya,Liburan
+15,listrik,Tagihan
+15,air,Tagihan
+15,kredit,Tagihan
+15,cicilan,Tagihan
+15,pulsa,Tagihan
+15,wifi,Tagihan
+3,kitabisa,Donasi
+3,zakat,Donasi
+3,amal,Donasi
+3,donasi,Donasi
+5,game,Hiburan
+5,timezone,Hiburan
+5,rekreasi,Hiburan
+5,netflix,Hiburan
+5,viu,Hiburan
+5,disney,Hiburan
+5,spotify,Hiburan
+5,joox,Hiburan
+16,kereta,Transportasi
+16,grab,Transportasi
+16,bluebird,Transportasi
+16,pertamina,Transportasi
+16,shell,Transportasi
+16,parkir,Transportasi
+16,gojek,Transportasi
+6,reksadana,Investasi
+6,bibit,Investasi
+6,tanamduit,Investasi
+6,sekuritas,Investasi
+6,aset manajemen,Investasi
+4,universitas,Edukasi
+4,sekolah,Edukasi
+4,university,Edukasi
+4,bimbel,Edukasi
+4,zenius,Edukasi
+4,ruangguru,Edukasi
+4,webinar,Edukasi
+4,edukasi,Edukasi
+8,sakit,Kesehatan
+8,obat,Kesehatan
+8,farmasi,Kesehatan
+8,dokter,Kesehatan
+8,pharmacy,Kesehatan
+8,doctor,Kesehatan
+8,hospital,Kesehatan
+8,apotik,Kesehatan
+8,apotek,Kesehatan
+2,putra kirana sentosa,Belanja
+2,saligading bersama,Belanja
+2,lintas mitra niaga,Belanja
+2,hikari padu lestari,Belanja
+2,swalayan sukses abadi,Belanja
+2,ranchmarket,Belanja
+2,matahari mall,Belanja
+2,superindo,Belanja
+2,hero supermarket,Belanja
+2,grandlucky superstore,Belanja
+2,parkson departement store,Belanja
+2,sogo departement store,Belanja
+2,putra serasi pioneerindo supermarket,Belanja
+2,hypermart mall,Belanja
+2,carrefour,Belanja
+2,gelael supermarket,Belanja
+2,multi artha pratama,Belanja
+2,vita prodana,Belanja
+2,indomart,Belanja
+2,alfamart,Belanja
+2,ramayana,Belanja
+2,debenhams retail company,Belanja
+2,star departement store,Belanja
+2,metro departement store,Belanja
+2,lotte departement store ,Belanja
+2,uniqlo,Belanja
+2,panen gl indonesia,Belanja
+19,1001 entertainment club,Makan dan minum
+19,9 square pool & resto,Makan dan minum
+19,99,Makan dan minum
+19,a & w family,Makan dan minum
+19,abuba steak,Makan dan minum
+19,ah mei cafe,Makan dan minum
+19,ajisen,Makan dan minum
+19,ajisen ramen rest,Makan dan minum
+19,american grill,Makan dan minum
+19,angke,Makan dan minum
+19,apollo kitchen,Makan dan minum
+19,aroma pondok sunda,Makan dan minum
+19,ayam goreng ny. suharti,Makan dan minum
+19,ayam goreng seleraku,Makan dan minum
+19,ayam tulang lunak hayam wuruk,Makan dan minum
+19,b fashion,Makan dan minum
+19,bakerzin,Makan dan minum
+19,bakmi ayam alok,Makan dan minum
+19,bakmi gang kelinci,Makan dan minum
+19,bakmi gm,Makan dan minum
+19,bakmi mangga besar viii,Makan dan minum
+19,bakso malang,Makan dan minum
+19,bakso malang karapitan,Makan dan minum
+19,bar b.q plaza,Makan dan minum
+19,baso malang karapitan,Makan dan minum
+19,beanstro,Makan dan minum
+19,bearly,Makan dan minum
+19,bengkong laut,Makan dan minum
+19,biero,Makan dan minum
+19,bima,Makan dan minum
+19,black ball,Makan dan minum
+19,bliss garden,Makan dan minum
+19,blitzmegaplex,Makan dan minum
+19,bon chon chicken,Makan dan minum
+19,bonchon chicken,Makan dan minum
+19,breakfast lunch dinner,Makan dan minum
+19,brooaster chicken,Makan dan minum
+19,brussels spring,Makan dan minum
+19,bullfrog,Makan dan minum
+19,bumbu desa,Makan dan minum
+19,burger king,Makan dan minum
+19,cafã© & resto pisa puri,Makan dan minum
+19,cafã© de waraku,Makan dan minum
+19,cahaya baru,Makan dan minum
+19,california pizza kitchen,Makan dan minum
+19,canton bay,Makan dan minum
+19,carl's jr,Makan dan minum
+19,carming,Makan dan minum
+19,causeway bay hk resto,Makan dan minum
+19,celio cafe,Makan dan minum
+19,cempaka,Makan dan minum
+19,cendana,Makan dan minum
+19,central,Makan dan minum
+19,cfc,Makan dan minum
+19,chatterbox cafe,Makan dan minum
+19,chatterbox cafã©,Makan dan minum
+19,cheese cake factory,Makan dan minum
+19,chef yang,Makan dan minum
+19,chefs table,Makan dan minum
+19,chicken story,Makan dan minum
+19,chinese food,Makan dan minum
+19,city extra,Makan dan minum
+19,city hall kedai kopi,Makan dan minum
+19,clover palace,Makan dan minum
+19,club 36,Makan dan minum
+19,club nebula,Makan dan minum
+19,coca suki,Makan dan minum
+19,coral bistro,Makan dan minum
+19,crystal jade la mian,Makan dan minum
+19,culina,Makan dan minum
+19,cut & grill,Makan dan minum
+19,d' asti wines and spirits lounge,Makan dan minum
+19,d' core,Makan dan minum
+19,d' cost,Makan dan minum
+19,d' omelette,Makan dan minum
+19,da fu hao,Makan dan minum
+19,dabes burger,Makan dan minum
+19,daniang dumpling,Makan dan minum
+19,dante coffee,Makan dan minum
+19,dapur betawi mpok juju,Makan dan minum
+19,dapur kuring,Makan dan minum
+19,de rivier,Makan dan minum
+19,delta raya pratama,Makan dan minum
+19,delta spa,Makan dan minum
+19,depot 369,Makan dan minum
+19,dharma kitchen indonesia,Makan dan minum
+19,diamond executive club,Makan dan minum
+19,dian xiao er,Makan dan minum
+19,din tai fung,Makan dan minum
+19,dinar,Makan dan minum
+19,district 7,Makan dan minum
+19,diva,Makan dan minum
+19,domino's pizza,Makan dan minum
+19,east west,Makan dan minum
+19,eaton,Makan dan minum
+19,eaton cafã©,Makan dan minum
+19,excelso,Makan dan minum
+19,exito,Makan dan minum
+19,fab cafã©,Makan dan minum
+19,fame,Makan dan minum
+19,fiesta steak,Makan dan minum
+19,fish & co,Makan dan minum
+19,food gallery,Makan dan minum
+19,food library,Makan dan minum
+19,fortuna ii,Makan dan minum
+19,furama,Makan dan minum
+19,gado gado cemara,Makan dan minum
+19,gandy steak,Makan dan minum
+19,gandy steak house & bakery,Makan dan minum
+19,ginsco,Makan dan minum
+19,gokana,Makan dan minum
+19,gokana teppan & ramen,Makan dan minum
+19,golden crown,Makan dan minum
+19,golden star,Makan dan minum
+19,grand hwa yen,Makan dan minum
+19,grand monggo mas,Makan dan minum
+19,grand ollimo,Makan dan minum
+19,grand paragon,Makan dan minum
+19,grandma suki,Makan dan minum
+19,hachi hachi bistro,Makan dan minum
+19,hakata ikkousha,Makan dan minum
+19,han gang,Makan dan minum
+19,hanamasa,Makan dan minum
+19,handels,Makan dan minum
+19,handel's,Makan dan minum
+19,happy puppy,Makan dan minum
+19,hay thien,Makan dan minum
+19,haze,Makan dan minum
+19,healthy choice,Makan dan minum
+19,henis,Makan dan minum
+19,hipsies kitchen and bar,Makan dan minum
+19,hm. karaoke,Makan dan minum
+19,hog's breath cafã©,Makan dan minum
+19,hokben,Makan dan minum
+19,home town,Makan dan minum
+19,hong men,Makan dan minum
+19,hongkong cafe,Makan dan minum
+19,hongkong jumbo,Makan dan minum
+19,hua ming lou,Makan dan minum
+19,hua shen,Makan dan minum
+19,hunan kitchen,Makan dan minum
+19,hungry hiro,Makan dan minum
+19,hungry town,Makan dan minum
+19,i - ta suki,Makan dan minum
+19,ichiban sushi,Makan dan minum
+19,ikkudo ichi,Makan dan minum
+19,illigal's,Makan dan minum
+19,imperial cakery,Makan dan minum
+19,imperial chef,Makan dan minum
+19,inul vizta,Makan dan minum
+19,inul vizta family ktv,Makan dan minum
+19,jade imperial,Makan dan minum
+19,jakarta fried chicken,Makan dan minum
+19,jala jala,Makan dan minum
+19,joni steak,Makan dan minum
+19,jun njan,Makan dan minum
+19,k - one,Makan dan minum
+19,kafe batavia,Makan dan minum
+19,kafe betawi,Makan dan minum
+19,kamseng,Makan dan minum
+19,kemangi,Makan dan minum
+19,kenny rogers,Makan dan minum
+19,kentucky fried chicken,Makan dan minum
+19,kin no taki,Makan dan minum
+19,king nursijan,Makan dan minum
+19,kitchenette,Makan dan minum
+19,kiyadon,Makan dan minum
+19,kiyadon sushi,Makan dan minum
+19,kopitiam,Makan dan minum
+19,kuahnya,Makan dan minum
+19,l&l hawaiian barbecue,Makan dan minum
+19,la biere,Makan dan minum
+19,la finestra ristorante,Makan dan minum
+19,lac mei che huo kuo,Makan dan minum
+19,lavicas cafe,Makan dan minum
+19,le vintage wine & spirit,Makan dan minum
+19,lei garden,Makan dan minum
+19,liebar,Makan dan minum
+19,little penang,Makan dan minum
+19,little sheep shabu shabu,Makan dan minum
+19,liyen,Makan dan minum
+19,luciole bistro,Makan dan minum
+19,mao jia cai,Makan dan minum
+19,marno's cafã©,Makan dan minum
+19,marugame udon,Makan dan minum
+19,marutama ra - men,Makan dan minum
+19,maxi bistro restaurant,Makan dan minum
+19,may star,Makan dan minum
+19,mbah jingkrak,Makan dan minum
+19,mc donalds,Makan dan minum
+19,mc donald's,Makan dan minum
+19,metropolitan,Makan dan minum
+19,michel's patisserie,Makan dan minum
+19,midori,Makan dan minum
+19,mie ayam pinangsia,Makan dan minum
+19,milles,Makan dan minum
+19,ministry of beer,Makan dan minum
+19,mister baso,Makan dan minum
+19,mix max,Makan dan minum
+19,mixx grill,Makan dan minum
+19,mr. locus,Makan dan minum
+19,mr. pancake,Makan dan minum
+19,nabemono suki & japanese resto,Makan dan minum
+19,nan xiang & northen chinese cuisine,Makan dan minum
+19,nan xiang & northern chinese chisine,Makan dan minum
+19,nan xiang steamed bun,Makan dan minum
+19,nanny's pavillon,Makan dan minum
+19,nanxiang & northern chinese cuisine,Makan dan minum
+19,nasi tim baru,Makan dan minum
+19,new town,Makan dan minum
+19,new unicorn,Makan dan minum
+19,ni hao,Makan dan minum
+19,ninety nine,Makan dan minum
+19,noodle cafã©,Makan dan minum
+19,nusa indah,Makan dan minum
+19,oasis,Makan dan minum
+19,old city,Makan dan minum
+19,old town,Makan dan minum
+19,old town white coffee,Makan dan minum
+19,oldtown white coffee,Makan dan minum
+19,olive vine,Makan dan minum
+19,open door,Makan dan minum
+19,palem cafã©,Makan dan minum
+19,pancious pancake house,Makan dan minum
+19,paradise dynasty,Makan dan minum
+19,paradise inn,Makan dan minum
+19,paregu,Makan dan minum
+19,pasta de waraku,Makan dan minum
+19,payuri,Makan dan minum
+19,pegasus,Makan dan minum
+19,penang bistro,Makan dan minum
+19,penang paradise,Makan dan minum
+19,pepper lunch,Makan dan minum
+19,pines kitchen,Makan dan minum
+19,pique nique,Makan dan minum
+19,pizza e birra,Makan dan minum
+19,pizza hut,Makan dan minum
+19,pizza hut delivery,Makan dan minum
+19,pizza hut delivery ( phd ),Makan dan minum
+19,platinum,Makan dan minum
+19,pondok citra grogol,Makan dan minum
+19,pondok iga,Makan dan minum
+19,pondok pesanggrahan,Makan dan minum
+19,popolamama,Makan dan minum
+19,princess syahrini,Makan dan minum
+19,pujasera,Makan dan minum
+19,puri 88,Makan dan minum
+19,puri laut seafood,Makan dan minum
+19,putien,Makan dan minum
+19,queen palace,Makan dan minum
+19,raacha suki,Makan dan minum
+19,rasane,Makan dan minum
+19,red bean,Makan dan minum
+19,red duck,Makan dan minum
+19,resep ibu,Makan dan minum
+19,restoran kbon klapa,Makan dan minum
+19,ribenkoff,Makan dan minum
+19,rice bowl,Makan dan minum
+19,richeese factory,Makan dan minum
+19,riung sunda,Makan dan minum
+19,rose garden,Makan dan minum
+19,sababay,Makan dan minum
+19,sahabat,Makan dan minum
+19,samudra,Makan dan minum
+19,samudra suki,Makan dan minum
+19,sari bundo,Makan dan minum
+19,sari indah,Makan dan minum
+19,sate khas senayan,Makan dan minum
+19,sate tomang,Makan dan minum
+19,school food blooming mari,Makan dan minum
+19,secret recipe,Makan dan minum
+19,sederhana,Makan dan minum
+19,sederhana bintaro,Makan dan minum
+19,sen lie,Makan dan minum
+19,serassa nusantara,Makan dan minum
+19,seven to 7,Makan dan minum
+19,shabu shabu express,Makan dan minum
+19,shabu slim,Makan dan minum
+19,shabu tei japanese,Makan dan minum
+19,shabu tei x' press,Makan dan minum
+19,shabuya,Makan dan minum
+19,shin yuan,Makan dan minum
+19,siam garden,Makan dan minum
+19,siauw a tjiap,Makan dan minum
+19,sichuan palace,Makan dan minum
+19,siera,Makan dan minum
+19,sin sin,Makan dan minum
+19,sindbad,Makan dan minum
+19,singapore bistro,Makan dan minum
+19,singapore hainanese chicken rice,Makan dan minum
+19,sizzler,Makan dan minum
+19,ski ya,Makan dan minum
+19,sms,Makan dan minum
+19,society +,Makan dan minum
+19,solaria,Makan dan minum
+19,somboon,Makan dan minum
+19,song fa bakut the,Makan dan minum
+19,stadium,Makan dan minum
+19,starbucks,Makan dan minum
+19,starbucks coffee,Makan dan minum
+19,starfly cafã©,Makan dan minum
+19,suan thai,Makan dan minum
+19,sun city,Makan dan minum
+19,sushi hana,Makan dan minum
+19,sushi joobu,Makan dan minum
+19,sushi kiosk,Makan dan minum
+19,sushi miyabi,Makan dan minum
+19,sushi mori,Makan dan minum
+19,sushi tei,Makan dan minum
+19,sushigroove,Makan dan minum
+19,sushinaga,Makan dan minum
+19,swike asli jtw,Makan dan minum
+19,ta wan,Makan dan minum
+19,takigawa,Makan dan minum
+19,talaga sampireun,Makan dan minum
+19,tawan,Makan dan minum
+19,tenya,Makan dan minum
+19,texas chicken,Makan dan minum
+19,the coffee bean & tea leaf,Makan dan minum
+19,the company house & of steak,Makan dan minum
+19,the duck king,Makan dan minum
+19,the duck king - noodle house,Makan dan minum
+19,the factory bistro & bar,Makan dan minum
+19,the foodhall kitchen,Makan dan minum
+19,the harbour restaurant,Makan dan minum
+19,the manhattan fish market,Makan dan minum
+19,the panecook,Makan dan minum
+19,the royal jade restoran,Makan dan minum
+19,the soup,Makan dan minum
+19,the square,Makan dan minum
+19,tio chiu,Makan dan minum
+19,tokio kitchen,Makan dan minum
+19,tomo japan,Makan dan minum
+19,tony roma's,Makan dan minum
+19,top yammie,Makan dan minum
+19,trattoria,Makan dan minum
+19,twelve cup cakes,Makan dan minum
+19,vines,Makan dan minum
+19,v-shop,Makan dan minum
+19,waku grill,Makan dan minum
+19,wang fu ciu chia,Makan dan minum
+19,waraku,Makan dan minum
+19,waraku gohan,Makan dan minum
+19,waroeng kita,Makan dan minum
+19,waroeng kopi,Makan dan minum
+19,warung tekko,Makan dan minum
+19,washoku sato,Makan dan minum
+19,wen zhou hai xian lou,Makan dan minum
+19,wendy's,Makan dan minum
+19,x.o suki,Makan dan minum
+19,x.o suki restaurant,Makan dan minum
+19,yangrest makmur,Makan dan minum
+19,yipin,Makan dan minum
+19,yoshinoya,Makan dan minum
+19,young ho exspres,Makan dan minum
+19,yu pin xuan,Makan dan minum
+19,""" 24 """,Makan dan minum
+19,127 cafã©,Makan dan minum
+19,360 (tiga ratus enam puluh derajat),Makan dan minum
+19,48 dimsum place,Makan dan minum
+19,8 treasures,Makan dan minum
+19,a.o.i,Makan dan minum
+19,absolute cafã©,Makan dan minum
+19,adem ayem,Makan dan minum
+19,after hour,Makan dan minum
+19,ah yat abalone forum,Makan dan minum
+19,ah yat seafood restaurant,Makan dan minum
+19,al jazeerah,Makan dan minum
+19,albahar alahmar,Makan dan minum
+19,alibaba steak & iga bakar,Makan dan minum
+19,alis,Makan dan minum
+19,american chili's grill & bar,Makan dan minum
+19,american hamburger,Makan dan minum
+19,angus house,Makan dan minum
+19,apero,Makan dan minum
+19,aro aroy,Makan dan minum
+19,auditorium blitzmegaplax,Makan dan minum
+19,auroz,Makan dan minum
+19,avec moi,Makan dan minum
+19,aw kitchen,Makan dan minum
+19,ayam bulungan,Makan dan minum
+19,ayam goreng suharti,Makan dan minum
+19,b/c-kafe betawi,Makan dan minum
+19,baker's inn,Makan dan minum
+19,bakmi balap,Makan dan minum
+19,bakmi jakarta,Makan dan minum
+19,bakmi kriting,Makan dan minum
+19,bakmi naga,Makan dan minum
+19,bakmi toko tiga,Makan dan minum
+19,bakudapa,Makan dan minum
+19,bakul tukul,Makan dan minum
+19,bale lombok,Makan dan minum
+19,bali terrace,Makan dan minum
+19,bangi kopitiam,Makan dan minum
+19,baroque,Makan dan minum
+19,baruna bistro,Makan dan minum
+19,basha restaurant,Makan dan minum
+19,batavia,Makan dan minum
+19,beautika,Makan dan minum
+19,bebek bengil dirty duck dinner,Makan dan minum
+19,beer garden,Makan dan minum
+19,beirut lebanon,Makan dan minum
+19,benihana,Makan dan minum
+19,beras merah,Makan dan minum
+19,bistro baron,Makan dan minum
+19,black canyon coffee,Makan dan minum
+19,black cat,Makan dan minum
+19,black cave,Makan dan minum
+19,black pearl cafã©,Makan dan minum
+19,blacksteer,Makan dan minum
+19,bloeming,Makan dan minum
+19,blue erawan,Makan dan minum
+19,bong kopitown,Makan dan minum
+19,boon chang kee,Makan dan minum
+19,brew & co,Makan dan minum
+19,brew house,Makan dan minum
+19,brewerkz,Makan dan minum
+19,brown bag,Makan dan minum
+19,bubur kwang tung,Makan dan minum
+19,bugsy's,Makan dan minum
+19,bumbu tjobek,Makan dan minum
+19,bunga rampai,Makan dan minum
+19,bushido japanese restaurant,Makan dan minum
+19,by the beach,Makan dan minum
+19,c e o,Makan dan minum
+19,c' one cempaka putih,Makan dan minum
+19,cafã‰ 5th avenue,Makan dan minum
+19,cafã© cappuccino,Makan dan minum
+19,cafã© fashion pasta,Makan dan minum
+19,cafã© oh lala,Makan dan minum
+19,cafe the barista,Makan dan minum
+19,cahaya kota,Makan dan minum
+19,cak' tu' ci',Makan dan minum
+19,canteen,Makan dan minum
+19,carlo de huts,Makan dan minum
+19,cassis,Makan dan minum
+19,cava,Makan dan minum
+19,cazasuki,Makan dan minum
+19,chandara,Makan dan minum
+19,cheese & caviar,Makan dan minum
+19,chef's bakery,Makan dan minum
+19,cherry,Makan dan minum
+19,chill in cafe,Makan dan minum
+19,chopstix,Makan dan minum
+19,cipta cafã©,Makan dan minum
+19,coffee break,Makan dan minum
+19,coffee club,Makan dan minum
+19,coffee world,Makan dan minum
+19,colours,Makan dan minum
+19,c'one cempaka putih,Makan dan minum
+19,cork & screw,Makan dan minum
+19,cream & fudge,Makan dan minum
+19,crystal jade la mian xiao long bao,Makan dan minum
+19,crystal jade meal cube,Makan dan minum
+19,crystal jade my bread,Makan dan minum
+19,crystal jade palace,Makan dan minum
+19,crystal jade restaurant,Makan dan minum
+19,cuppa coffee,Makan dan minum
+19,d' consulat,Makan dan minum
+19,d core,Makan dan minum
+19,d' rox,Makan dan minum
+19,d' stupid baker,Makan dan minum
+19,d' sushi bodo,Makan dan minum
+19,da jia fu,Makan dan minum
+19,da tang restoran,Makan dan minum
+19,daily kitchen,Makan dan minum
+19,dapoer podjok,Makan dan minum
+19,dapur babah elite & tao bar,Makan dan minum
+19,de gourmet kitchen,Makan dan minum
+19,de luca,Makan dan minum
+19,demang,Makan dan minum
+19,desi dapur,Makan dan minum
+19,dharma kitchen,Makan dan minum
+19,diagonale,Makan dan minum
+19,dill's,Makan dan minum
+19,dinemax,Makan dan minum
+19,do' an,Makan dan minum
+19,domain,Makan dan minum
+19,domus demos resto,Makan dan minum
+19,double bay,Makan dan minum
+19,dream,Makan dan minum
+19,eatology,Makan dan minum
+19,echigoya ramen,Makan dan minum
+19,edutainment one,Makan dan minum
+19,ekaria,Makan dan minum
+19,eksotik,Makan dan minum
+19,emporium,Makan dan minum
+19,en dining,Makan dan minum
+19,enmaru,Makan dan minum
+19,ephicure,Makan dan minum
+19,espressamente illy,Makan dan minum
+19,ever fresh,Makan dan minum
+19,fab cafe,Makan dan minum
+19,fajar,Makan dan minum
+19,fashion,Makan dan minum
+19,fat burger,Makan dan minum
+19,fatback,Makan dan minum
+19,fish & co seafood shack,Makan dan minum
+19,flanagan's irish pub & restaurant,Makan dan minum
+19,fok luk sau,Makan dan minum
+19,foodism,Makan dan minum
+19,fook yew,Makan dan minum
+19,fortune,Makan dan minum
+19,frangipani cafe,Makan dan minum
+19,front page,Makan dan minum
+19,fuku ten,Makan dan minum
+19,fx music bistro,Makan dan minum
+19,gado gado boplo,Makan dan minum
+19,gaia ristorante,Makan dan minum
+19,galare ice cream,Makan dan minum
+19,galeri cafe,Makan dan minum
+19,ganesha ek sanskriti,Makan dan minum
+19,gang gang sulai,Makan dan minum
+19,garcon,Makan dan minum
+19,garuda,Makan dan minum
+19,gb bistro,Makan dan minum
+19,goemon,Makan dan minum
+19,gokana teppan,Makan dan minum
+19,goma ramen,Makan dan minum
+19,grand brilliant palace,Makan dan minum
+19,grand suki,Makan dan minum
+19,grato cafe and bistro,Makan dan minum
+19,gudeg bu tjitro,Makan dan minum
+19,gyu kaku restaurant,Makan dan minum
+19,h s,Makan dan minum
+19,haagen dazs ice cream,Makan dan minum
+19,hacienda mexican bar & grill,Makan dan minum
+19,hadramout,Makan dan minum
+19,haka,Makan dan minum
+19,hanamasa yakiniku,Makan dan minum
+19,hanei,Makan dan minum
+19,happy day,Makan dan minum
+19,hard rock cafã©,Makan dan minum
+19,harum,Makan dan minum
+19,harum manis,Makan dan minum
+19,hema resto,Makan dan minum
+19,hermitage lounge,Makan dan minum
+19,hey ho,Makan dan minum
+19,hoka hoka bento,Makan dan minum
+19,honzen,Makan dan minum
+19,hot planet,Makan dan minum
+19,hp gardena,Makan dan minum
+19,hyu han,Makan dan minum
+19,ichigo ichie,Makan dan minum
+19,ikan bakar cianjur,Makan dan minum
+19,ikan tude manado,Makan dan minum
+19,ikiya,Makan dan minum
+19,iko sabana,Makan dan minum
+19,immigrant,Makan dan minum
+19,imperial la mian xiao long bao,Makan dan minum
+19,imperial lamian,Makan dan minum
+19,ippachi japanese rest,Makan dan minum
+19,j - wine,Makan dan minum
+19,j house,Makan dan minum
+19,jakarta international club,Makan dan minum
+19,jakarta wine,Makan dan minum
+19,java food corner,Makan dan minum
+19,jill in marketbar,Makan dan minum
+19,jittlada thai cuisine,Makan dan minum
+19,jj royal bistro,Makan dan minum
+19,jun njan express,Makan dan minum
+19,kado,Makan dan minum
+19,kado++,Makan dan minum
+19,kafe domus,Makan dan minum
+19,kafe kalifornia,Makan dan minum
+19,kafe victoria,Makan dan minum
+19,kaihomaru,Makan dan minum
+19,kamikaze kara'age,Makan dan minum
+19,kamogawa,Makan dan minum
+19,katsura,Makan dan minum
+19,katsusei,Makan dan minum
+19,kedai clay,Makan dan minum
+19,kedai jakarta,Makan dan minum
+19,kedai tiga nyonya,Makan dan minum
+19,kedai toean & njonja,Makan dan minum
+19,kenny rogers roasters,Makan dan minum
+19,kentucky fried chicken ( kfc ),Makan dan minum
+19,kihana,Makan dan minum
+19,killiney kopitiam,Makan dan minum
+19,king of thai,Makan dan minum
+19,kinokawa,Makan dan minum
+19,kitchen 18,Makan dan minum
+19,klub golf senayan,Makan dan minum
+19,ko iki,Makan dan minum
+19,koji,Makan dan minum
+19,komala's restaurant,Makan dan minum
+19,krekot,Makan dan minum
+19,krispy kreme,Makan dan minum
+19,kuppa restaurant,Makan dan minum
+19,kushi musubi,Makan dan minum
+19,kweetiauw kerang singapur,Makan dan minum
+19,la tour d'ebeya,Makan dan minum
+19,lada merah,Makan dan minum
+19,lamoda cafã©,Makan dan minum
+19,lan na thai,Makan dan minum
+19,lara djonggrang,Makan dan minum
+19,lattice cafã©,Makan dan minum
+19,lau's kopitiam,Makan dan minum
+19,le cafe indonesia,Makan dan minum
+19,lintang 28,Makan dan minum
+19,little sheep,Makan dan minum
+19,locanda,Makan dan minum
+19,lollipop's playland & cafã©,Makan dan minum
+19,long beach seafood,Makan dan minum
+19,long grain,Makan dan minum
+19,m. ramen,Makan dan minum
+19,mad for garlic,Makan dan minum
+19,madame lilys cafã©,Makan dan minum
+19,maimo manado resto cafã©,Makan dan minum
+19,makan point,Makan dan minum
+19,mamacita,Makan dan minum
+19,mangia,Makan dan minum
+19,marche,Makan dan minum
+19,marche restaurant,Makan dan minum
+19,margot,Makan dan minum
+19,mario's place,Makan dan minum
+19,marugame udon & tempura,Makan dan minum
+19,marutama ra-men,Makan dan minum
+19,master wok,Makan dan minum
+19,mehbash,Makan dan minum
+19,melly's,Makan dan minum
+19,melly's garden & resto,Makan dan minum
+19,melody house,Makan dan minum
+19,melt,Makan dan minum
+19,mikura sushi & sake,Makan dan minum
+19,ming,Makan dan minum
+19,miranda,Makan dan minum
+19,misticanza,Makan dan minum
+19,mitra oasis residence,Makan dan minum
+19,molly malone's,Makan dan minum
+19,monolog,Makan dan minum
+19,morrissey,Makan dan minum
+19,mos burger,Makan dan minum
+19,mos cafã©,Makan dan minum
+19,moviez resto & coffee,Makan dan minum
+19,movina,Makan dan minum
+19,mr. curry,Makan dan minum
+19,mr. park,Makan dan minum
+19,my pancake,Makan dan minum
+19,nakanakaya,Makan dan minum
+19,nan xiang steamed bun-shanghai,Makan dan minum
+19,nannini,Makan dan minum
+19,nannini grill,Makan dan minum
+19,nasi uduk kebon kacang (sancang),Makan dan minum
+19,natrabu,Makan dan minum
+19,nelayan,Makan dan minum
+19,new daisho express,Makan dan minum
+19,nishiazabu yukashi,Makan dan minum
+19,nona bola,Makan dan minum
+19,nutz culture,Makan dan minum
+19,ocha & bella,Makan dan minum
+19,oenpao,Makan dan minum
+19,olives,Makan dan minum
+19,omori,Makan dan minum
+19,ootoya,Makan dan minum
+19,opus cafã©,Makan dan minum
+19,orchardz,Makan dan minum
+19,orenji,Makan dan minum
+19,outback steakhouse,Makan dan minum
+19,oyster,Makan dan minum
+19,padang jaya raya,Makan dan minum
+19,palalada,Makan dan minum
+19,pancious pancake,Makan dan minum
+19,pandan village,Makan dan minum
+19,paparon's pizza,Makan dan minum
+19,paradise dynasti,Makan dan minum
+19,paramount,Makan dan minum
+19,pelangi,Makan dan minum
+19,penang eatery,Makan dan minum
+19,pesto autentico,Makan dan minum
+19,phi suki,Makan dan minum
+19,phloey,Makan dan minum
+19,pho 2000,Makan dan minum
+19,phoenam,Makan dan minum
+19,pisa ice cream,Makan dan minum
+19,pizza bar,Makan dan minum
+19,pizza hut delivery,Makan dan minum
+19,pizza hut delivery (phd),Makan dan minum
+19,pizza marzano,Makan dan minum
+19,poke sushi,Makan dan minum
+19,polo club jakarta,Makan dan minum
+19,polo lounge,Makan dan minum
+19,pondok angkasa,Makan dan minum
+19,pondok djaja,Makan dan minum
+19,pondok sedap malam,Makan dan minum
+19,pondok suryo,Makan dan minum
+19,portico,Makan dan minum
+19,prive,Makan dan minum
+19,puang oca,Makan dan minum
+19,pulau dua,Makan dan minum
+19,queen's tandoor,Makan dan minum
+19,ragusa es italiana,Makan dan minum
+19,rakumen,Makan dan minum
+19,ramen santouka,Makan dan minum
+19,rawa sha,Makan dan minum
+19,rawon setan,Makan dan minum
+19,red square,Makan dan minum
+19,red tomato,Makan dan minum
+19,remboelan,Makan dan minum
+19,rendezvous,Makan dan minum
+19,resto eric kayser,Makan dan minum
+19,restoran miramar,Makan dan minum
+19,restoran plaza indonesia xxi,Makan dan minum
+19,restoran sulaiman,Makan dan minum
+19,rica rica,Makan dan minum
+19,rice bowl dan mister baso,Makan dan minum
+19,rive gauche,Makan dan minum
+19,roca,Makan dan minum
+19,roemah rempah,Makan dan minum
+19,roemah sereh,Makan dan minum
+19,roti bodo,Makan dan minum
+19,rustique,Makan dan minum
+19,rych menu restoran,Makan dan minum
+19,sabana bundo sati,Makan dan minum
+19,sagami,Makan dan minum
+19,sahid ah yat seafood,Makan dan minum
+19,saint louis lounge,Makan dan minum
+19,sakana,Makan dan minum
+19,salt grill,Makan dan minum
+19,samara,Makan dan minum
+19,santung,Makan dan minum
+19,sanur,Makan dan minum
+19,sanur mangga dua,Makan dan minum
+19,sari ratu,Makan dan minum
+19,saung grenvil,Makan dan minum
+19,sederhana benhil,Makan dan minum
+19,segafredo,Makan dan minum
+19,segafredo zanetti,Makan dan minum
+19,seleraku,Makan dan minum
+19,sentral al jazeerah,Makan dan minum
+19,seribu rasa,Makan dan minum
+19,seroeni,Makan dan minum
+19,seven cafã©,Makan dan minum
+19,shabu shabu house,Makan dan minum
+19,shanghai blue 1920,Makan dan minum
+19,shanghai garden,Makan dan minum
+19,shangrila palace,Makan dan minum
+19,shas'bu bistro,Makan dan minum
+19,shima japanese restaurant,Makan dan minum
+19,shisha cafã©,Makan dan minum
+19,simpang raya,Makan dan minum
+19,sinar medan,Makan dan minum
+19,sindoro,Makan dan minum
+19,sky box sport cafe,Makan dan minum
+19,skye,Makan dan minum
+19,smooch,Makan dan minum
+19,soccer cafã©,Makan dan minum
+19,soho,Makan dan minum
+19,sombrero,Makan dan minum
+19,soto koedoes,Makan dan minum
+19,soto madura,Makan dan minum
+19,soup restaurant,Makan dan minum
+19,south beauty,Makan dan minum
+19,spageddies italian kitchen,Makan dan minum
+19,spin city,Makan dan minum
+19,st. germain by cacaote,Makan dan minum
+19,steak factory,Makan dan minum
+19,studio 21 boutique,Makan dan minum
+19,sumiya japanese restaurant,Makan dan minum
+19,sumo sushi,Makan dan minum
+19,sumpit,Makan dan minum
+19,suntiang restoran,Makan dan minum
+19,sushi gen,Makan dan minum
+19,sushi sei,Makan dan minum
+19,t - rex,Makan dan minum
+19,taichan,Makan dan minum
+19,tairyo,Makan dan minum
+19,tajima yakiniku,Makan dan minum
+19,takemori,Makan dan minum
+19,takumi,Makan dan minum
+19,tamani cafã©,Makan dan minum
+19,tamani express,Makan dan minum
+19,tamani kafe,Makan dan minum
+19,tamnak thai,Makan dan minum
+19,tan & tan,Makan dan minum
+19,tartine,Makan dan minum
+19,taste paradise,Makan dan minum
+19,tatemukai,Makan dan minum
+19,tator cafã©,Makan dan minum
+19,tator coffee boutique,Makan dan minum
+19,te sa te,Makan dan minum
+19,tee 9,Makan dan minum
+19,ten ten,Makan dan minum
+19,teppan house,Makan dan minum
+19,terrazza bianco,Makan dan minum
+19,tesate,Makan dan minum
+19,the belly clan,Makan dan minum
+19,the cafã© cartel,Makan dan minum
+19,the cloud,Makan dan minum
+19,the duck king kitchen,Makan dan minum
+19,the grand duck king,Makan dan minum
+19,the grand hanei,Makan dan minum
+19,the grill,Makan dan minum
+19,the jaya pub,Makan dan minum
+19,the koreana,Makan dan minum
+19,the lunch room,Makan dan minum
+19,the luv's bar and dine,Makan dan minum
+19,the marmalade pantry,Makan dan minum
+19,the muffin house,Makan dan minum
+19,the only one club,Makan dan minum
+19,the people's cafã©,Makan dan minum
+19,the playground,Makan dan minum
+19,the social house,Makan dan minum
+19,the soup spoon,Makan dan minum
+19,the taste cafã©,Makan dan minum
+19,the terrace,Makan dan minum
+19,three in one cafã© & bistro,Makan dan minum
+19,tian xi,Makan dan minum
+19,tin pan alley,Makan dan minum
+19,tinor asli manado,Makan dan minum
+19,tiong sim kopitiam,Makan dan minum
+19,tjap toean,Makan dan minum
+19,tokyo ramen tabushi,Makan dan minum
+19,tokyo shokudo,Makan dan minum
+19,tom tom restaurant,Makan dan minum
+19,tomodachi,Makan dan minum
+19,tomodachi express,Makan dan minum
+19,toranomon,Makan dan minum
+19,toro jakarta,Makan dan minum
+19,tribeca n.y.c bar & diner,Makan dan minum
+19,trio minang,Makan dan minum
+19,tropik,Makan dan minum
+19,twg,Makan dan minum
+19,udonku,Makan dan minum
+19,umena dori,Makan dan minum
+19,unacho,Makan dan minum
+19,union bistro & bar,Makan dan minum
+19,v - 2,Makan dan minum
+19,verandah lounge,Makan dan minum
+19,vin +,Makan dan minum
+19,vmad vegetarian madness,Makan dan minum
+19,wabito ramen,Makan dan minum
+19,waha kitchen,Makan dan minum
+19,warjok asli,Makan dan minum
+19,waroeng entjiem lauw tan,Makan dan minum
+19,warung daun,Makan dan minum
+19,warung desa,Makan dan minum
+19,warung leko,Makan dan minum
+19,warung pojok senayan,Makan dan minum
+19,warung tinggi,Makan dan minum
+19,wendy's hamburger,Makan dan minum
+19,whiskey barons jakarta,Makan dan minum
+19,white box,Makan dan minum
+19,white elephant,Makan dan minum
+19,wmiitem,Makan dan minum
+19,woku blangan,Makan dan minum
+19,xi men ding,Makan dan minum
+19,xo suki,Makan dan minum
+19,xxi ball room & club,Makan dan minum
+19,xxi lounge,Makan dan minum
+19,y & y,Makan dan minum
+19,ya udah bistro,Makan dan minum
+19,yakiniku garden esina,Makan dan minum
+19,yakoya,Makan dan minum
+19,yellow fin,Makan dan minum
+19,yo resto,Makan dan minum
+19,yoogane,Makan dan minum
+19,yo'panino,Makan dan minum
+19,zen,Makan dan minum
+19,zenbu,Makan dan minum
+19,zhuma,Makan dan minum
+19,zodiak,Makan dan minum
+19,#ERROR!,Makan dan minum
+19,1 - nampan,Makan dan minum
+19,2 mad eatery,Makan dan minum
+19,2 nd kitchen,Makan dan minum
+19,2c coffee & cuisine,Makan dan minum
+19,365,Makan dan minum
+19,3 c (corinne coffee corner),Makan dan minum
+19,38 ramen,Makan dan minum
+19,4 fingers crispy chicken,Makan dan minum
+19,9 bell pepper restaurant,Makan dan minum
+19,a - resto,Makan dan minum
+19,a & w restaurant,Makan dan minum
+19,abgujong,Makan dan minum
+19,ah tuan ee's,Makan dan minum
+19,ai chan restaurant,Makan dan minum
+19,ajitei,Makan dan minum
+19,akane,Makan dan minum
+19,akira back,Makan dan minum
+19,alcoholics,Makan dan minum
+19,alegro f - ktv,Makan dan minum
+19,alex pizze e pasta,Makan dan minum
+19,alibi,Makan dan minum
+19,alice's wonderland sulawesi,Makan dan minum
+19,amadeus cafã©,Makan dan minum
+19,amarone bistro & bar,Makan dan minum
+19,amigos,Makan dan minum
+19,ammarin,Makan dan minum
+19,amuz,Makan dan minum
+19,anatolia,Makan dan minum
+19,anggrek,Makan dan minum
+19,anomali coffee,Makan dan minum
+19,aperitivo,Makan dan minum
+19,aphrodite,Makan dan minum
+19,apollo bar & restoran,Makan dan minum
+19,arang 22,Makan dan minum
+19,ari jong,Makan dan minum
+19,arosa,Makan dan minum
+19,aruba,Makan dan minum
+19,aya,Makan dan minum
+19,ayam bakar wong solo,Makan dan minum
+19,ayam goreng fatmawati,Makan dan minum
+19,ayam goreng mbok berek,Makan dan minum
+19,b 1 club,Makan dan minum
+19,bacco,Makan dan minum
+19,back yard,Makan dan minum
+19,bagel and friends,Makan dan minum
+19,bakmi hasendo,Makan dan minum
+19,bakmi mania,Makan dan minum
+19,bakmi nanking,Makan dan minum
+19,bakmilicious,Makan dan minum
+19,balboni,Makan dan minum
+19,bali cafã©,Makan dan minum
+19,bandar al jazeera,Makan dan minum
+19,barcode,Makan dan minum
+19,barley and hops,Makan dan minum
+19,basara,Makan dan minum
+19,basil,Makan dan minum
+19,basilico,Makan dan minum
+19,baso,Makan dan minum
+19,bau - haus,Makan dan minum
+19,bauma brasserie,Makan dan minum
+19,bbq chicken,Makan dan minum
+19,bebek & bebek,Makan dan minum
+19,bebek tepi sawah,Makan dan minum
+19,beer brother,Makan dan minum
+19,beerdy,Makan dan minum
+19,beyond,Makan dan minum
+19,bibet warung,Makan dan minum
+19,bibigo,Makan dan minum
+19,bibliotheque,Makan dan minum
+19,billiechick cafã©,Makan dan minum
+19,bintaro,Makan dan minum
+19,bistro delifrance,Makan dan minum
+19,bistronomy jakarta,Makan dan minum
+19,bits & bobs,Makan dan minum
+19,blowfish puro,Makan dan minum
+19,blue monkey,Makan dan minum
+19,bluegrass,Makan dan minum
+19,blumchen coffee,Makan dan minum
+19,bob bistro,Makan dan minum
+19,bobby d's,Makan dan minum
+19,boci - boci,Makan dan minum
+19,bornga,Makan dan minum
+19,bottega,Makan dan minum
+19,brentwood,Makan dan minum
+19,bricks kitchen & lounge,Makan dan minum
+19,broadway in newyork,Makan dan minum
+19,budget resto,Makan dan minum
+19,bulgogi brothers,Makan dan minum
+19,bureau gastronomic & pub,Makan dan minum
+19,byblos bistro,Makan dan minum
+19,byre - synch,Makan dan minum
+19,c 2. com cafã©,Makan dan minum
+19,cafã© dea,Makan dan minum
+19,cafã© oh lala maison,Makan dan minum
+19,cafe raja,Makan dan minum
+19,cafetin,Makan dan minum
+19,cal roll factory,Makan dan minum
+19,cali deli,Makan dan minum
+19,cantare f- ktv & bistro,Makan dan minum
+19,capocaccia sandwich and lounge,Makan dan minum
+19,caprese,Makan dan minum
+19,carpe diem,Makan dan minum
+19,carrefour,Makan dan minum
+19,casa,Makan dan minum
+19,casa de peri,Makan dan minum
+19,casablanca,Makan dan minum
+19,cazbar,Makan dan minum
+19,ccozi & friends,Makan dan minum
+19,ce wei,Makan dan minum
+19,celio bistro,Makan dan minum
+19,cendrawasih,Makan dan minum
+19,cheers,Makan dan minum
+19,chef xiang,Makan dan minum
+19,chicken & egg,Makan dan minum
+19,chifu ( chinese fusion ),Makan dan minum
+19,chillounge,Makan dan minum
+19,choco corner,Makan dan minum
+19,chooi yeon,Makan dan minum
+19,chowking,Makan dan minum
+19,chung gi wa,Makan dan minum
+19,chung gi wa restaurant,Makan dan minum
+19,chung hae,Makan dan minum
+19,chung hae soo san,Makan dan minum
+19,citrus cafã©,Makan dan minum
+19,city seoul,Makan dan minum
+19,classified,Makan dan minum
+19,clays resto & cafã©,Makan dan minum
+19,club jcool,Makan dan minum
+19,coffee world & cream fudge,Makan dan minum
+19,coffeenie,Makan dan minum
+19,coklat item cafã©,Makan dan minum
+19,colonial,Makan dan minum
+19,colony coffee & resto,Makan dan minum
+19,comic cafã©,Makan dan minum
+19,common people,Makan dan minum
+19,commune bistro & grill,Makan dan minum
+19,connoisseur,Makan dan minum
+19,corner,Makan dan minum
+19,cosi,Makan dan minum
+19,cowboys,Makan dan minum
+19,crazzy sushi,Makan dan minum
+19,cream & fudge factory,Makan dan minum
+19,crema,Makan dan minum
+19,creo,Makan dan minum
+19,crystal jade kitchen,Makan dan minum
+19,crystal jade palace restaurant,Makan dan minum
+19,crystal jade teochew restaurant,Makan dan minum
+19,cup & cino,Makan dan minum
+19,curryvora,Makan dan minum
+19,d' class,Makan dan minum
+19,d cost,Makan dan minum
+19,d' cost quick,Makan dan minum
+19,d' cost seafood,Makan dan minum
+19,d' s place,Makan dan minum
+19,dae gamjib,Makan dan minum
+19,daily bread,Makan dan minum
+19,daily foodhall,Makan dan minum
+19,daitokyo sakaba,Makan dan minum
+19,damask resto,Makan dan minum
+19,danie coffe,Makan dan minum
+19,dapur selera,Makan dan minum
+19,dapur solo,Makan dan minum
+19,dapur sunda,Makan dan minum
+19,de burse,Makan dan minum
+19,de hooi,Makan dan minum
+19,de leila,Makan dan minum
+19,de resto,Makan dan minum
+19,decanter,Makan dan minum
+19,deh hwa,Makan dan minum
+19,deli,Makan dan minum
+19,delipizta,Makan dan minum
+19,delta fortuna raya,Makan dan minum
+19,delta spa & health club,Makan dan minum
+19,depot saribanon,Makan dan minum
+19,destination,Makan dan minum
+19,dewa rasa,Makan dan minum
+19,dialoque eatery,Makan dan minum
+19,die stube,Makan dan minum
+19,dijan's resto,Makan dan minum
+19,d'ilario,Makan dan minum
+19,dim sum inc.,Makan dan minum
+19,disshima,Makan dan minum
+19,do re mi do,Makan dan minum
+19,dominos pizza,Makan dan minum
+19,don sancho,Makan dan minum
+19,door 858,Makan dan minum
+19,double decker deli,Makan dan minum
+19,double dips,Makan dan minum
+19,double dips resto,Makan dan minum
+19,downtown bistro,Makan dan minum
+19,dragon flames,Makan dan minum
+19,dragonfly,Makan dan minum
+19,drift coffee shop,Makan dan minum
+19,d'storm,Makan dan minum
+19,duta parama sentosa,Makan dan minum
+19,e & o,Makan dan minum
+19,eastern promise,Makan dan minum
+19,eatalia,Makan dan minum
+19,eaton & ahmei,Makan dan minum
+19,ebeya,Makan dan minum
+19,ebisu,Makan dan minum
+19,echigoya,Makan dan minum
+19,el - asador restaurant,Makan dan minum
+19,el gaucho,Makan dan minum
+19,el greco gourmet cafã©,Makan dan minum
+19,elbow room,Makan dan minum
+19,elmanna cafe,Makan dan minum
+19,empirica lounge and bar,Makan dan minum
+19,entrada,Makan dan minum
+19,espiga,Makan dan minum
+19,euphoria lounge,Makan dan minum
+19,euro cafã©,Makan dan minum
+19,excelsior resto & gallery,Makan dan minum
+19,exchange club,Makan dan minum
+19,exodus,Makan dan minum
+19,fable,Makan dan minum
+19,fair ground,Makan dan minum
+19,family mart,Makan dan minum
+19,fiddleheads,Makan dan minum
+19,fj bistro & deli,Makan dan minum
+19,fj grill,Makan dan minum
+19,fj on 7,Makan dan minum
+19,fj rottisserrie,Makan dan minum
+19,flour flour,Makan dan minum
+19,fly ginseng chicken,Makan dan minum
+19,fourties,Makan dan minum
+19,fuji soba,Makan dan minum
+19,fukuro,Makan dan minum
+19,gahyo,Makan dan minum
+19,galaxi chandra purnama,Makan dan minum
+19,gandaria xxi cafã©,Makan dan minum
+19,ganesha,Makan dan minum
+19,gangnam,Makan dan minum
+19,gaya sung,Makan dan minum
+19,gayo coffee,Makan dan minum
+19,gedung putih,Makan dan minum
+19,geisha eksekutif,Makan dan minum
+19,gelato,Makan dan minum
+19,georg peck coffee & tea,Makan dan minum
+19,gingerepublic,Makan dan minum
+19,giovanese,Makan dan minum
+19,gloria jean's coffee,Makan dan minum
+19,gogo ramen,Makan dan minum
+19,goku shabu,Makan dan minum
+19,gold rush,Makan dan minum
+19,golden century,Makan dan minum
+19,golfmax,Makan dan minum
+19,gourmand bistro,Makan dan minum
+19,graffiti,Makan dan minum
+19,grand lotus,Makan dan minum
+19,gudeg jogya,Makan dan minum
+19,gula merah,Makan dan minum
+19,gusto tapas and wine bar,Makan dan minum
+19,gyoza,Makan dan minum
+19,gyu kaku,Makan dan minum
+19,haagen-dazs ice cream,Makan dan minum
+19,han gang 99,Makan dan minum
+19,han min jok,Makan dan minum
+19,hanei ramen & sushi,Makan dan minum
+19,hang gang,Makan dan minum
+19,hangoga,Makan dan minum
+19,hansol,Makan dan minum
+19,helen's bistro,Makan dan minum
+19,hema,Makan dan minum
+19,hemisphere,Makan dan minum
+19,hide and seek restaurant,Makan dan minum
+19,hide yamamoto,Makan dan minum
+19,high on caffeine,Makan dan minum
+19,homare,Makan dan minum
+19,hong lung szechuan cuisine,Makan dan minum
+19,hongkong cafã©,Makan dan minum
+19,honoka,Makan dan minum
+19,hope town kitchen & tea room,Makan dan minum
+19,hotel sentra boutique,Makan dan minum
+19,huize van wely,Makan dan minum
+19,hummingbird,Makan dan minum
+19,hurry curry of tokyo,Makan dan minum
+19,hyde,Makan dan minum
+19,i - tasuki,Makan dan minum
+19,ideas,Makan dan minum
+19,iga iga,Makan dan minum
+19,ikan bakar manado,Makan dan minum
+19,ikkado ramen,Makan dan minum
+19,ikuze,Makan dan minum
+19,il primo,Makan dan minum
+19,imae japanese shabu-shabu,Makan dan minum
+19,imperial cakery & dim sum,Makan dan minum
+19,imperial kitchen & dimsum,Makan dan minum
+19,incanto,Makan dan minum
+19,inns,Makan dan minum
+19,inul vista,Makan dan minum
+19,inul vista family ktv,Makan dan minum
+19,ippudo,Makan dan minum
+19,iseya,Makan dan minum
+19,ivy bistro,Makan dan minum
+19,izzi pizza,Makan dan minum
+19,j' chef,Makan dan minum
+19,jala-jala,Makan dan minum
+19,jang su de,Makan dan minum
+19,jbs cafã© & resto,Makan dan minum
+19,jc's cafã©,Makan dan minum
+19,jimm's sports cafã©,Makan dan minum
+19,jitlada thai cuisine,Makan dan minum
+19,jj royal brasserie,Makan dan minum
+19,joe smoker bbq,Makan dan minum
+19,johnny rockets,Makan dan minum
+19,julian nyland,Makan dan minum
+19,j-wine,Makan dan minum
+19,k o i,Makan dan minum
+19,kafe anda,Makan dan minum
+19,kafe batik,Makan dan minum
+19,kafe excelso,Makan dan minum
+19,kafe regal,Makan dan minum
+19,kaffeine,Makan dan minum
+19,kaisen dokoro kaihomaru,Makan dan minum
+19,kampoeng bangka,Makan dan minum
+19,kampung kemang,Makan dan minum
+19,kana restolounge,Makan dan minum
+19,kappo don,Makan dan minum
+19,kashiwa,Makan dan minum
+19,kazan ramen express,Makan dan minum
+19,kedai dolsot,Makan dan minum
+19,kedai nyonya bintuni,Makan dan minum
+19,kedai penang,Makan dan minum
+19,ke'ku:n coffee shop,Makan dan minum
+19,kemang 58,Makan dan minum
+19,kembang goela,Makan dan minum
+19,kembang kemangi,Makan dan minum
+19,kembang lawang,Makan dan minum
+19,kemistry,Makan dan minum
+19,kenny rogers roaster,Makan dan minum
+19,ketjil kitchen,Makan dan minum
+19,kim sat gat,Makan dan minum
+19,kinara kemang,Makan dan minum
+19,king chef,Makan dan minum
+19,kingkong,Makan dan minum
+19,kinokawa izakaya,Makan dan minum
+19,kira kira ginza,Makan dan minum
+19,kirishima kitchen,Makan dan minum
+19,koh-e-noor,Makan dan minum
+19,komachi,Makan dan minum
+19,komunal 88,Makan dan minum
+19,kopitiam hd wilwaukee,Makan dan minum
+19,kuekue,Makan dan minum
+19,ku-kai,Makan dan minum
+19,kuningan village,Makan dan minum
+19,kyochon,Makan dan minum
+19,kyochon restaurant,Makan dan minum
+19,kyoka,Makan dan minum
+19,la damansara kopitiam,Makan dan minum
+19,la luce,Makan dan minum
+19,larazeta,Makan dan minum
+19,lattice,Makan dan minum
+19,lau mok kopitiam,Makan dan minum
+19,le cirque,Makan dan minum
+19,le seminyak,Makan dan minum
+19,le' zzzat,Makan dan minum
+19,lemon tree,Makan dan minum
+19,levant,Makan dan minum
+19,level ii ( level two ),Makan dan minum
+19,liberte french brasserie,Makan dan minum
+19,ling ling,Makan dan minum
+19,lion restaurant,Makan dan minum
+19,liquid exchange,Makan dan minum
+19,little taiwan,Makan dan minum
+19,little takigawa,Makan dan minum
+19,liv ; taste of asian,Makan dan minum
+19,loewy,Makan dan minum
+19,lokananta terace resto,Makan dan minum
+19,lollipop's playland & cafe,Makan dan minum
+19,lot 8,Makan dan minum
+19,lotteria,Makan dan minum
+19,lotus court,Makan dan minum
+19,lulo kitchen & bar,Makan dan minum
+19,luna negra,Makan dan minum
+19,lyrics,Makan dan minum
+19,m d l,Makan dan minum
+19,m point,Makan dan minum
+19,mabua kafã©,Makan dan minum
+19,mad,Makan dan minum
+19,mad dog,Makan dan minum
+19,madam kwok,Makan dan minum
+19,madame oey,Makan dan minum
+19,madeleine bistro,Makan dan minum
+19,magokoro,Makan dan minum
+19,maison tatsuya,Makan dan minum
+19,makoro,Makan dan minum
+19,malay village,Makan dan minum
+19,mambo bodega,Makan dan minum
+19,mamma rosy,Makan dan minum
+19,mang engking,Makan dan minum
+19,mang kabayan,Makan dan minum
+19,mangkok putih,Makan dan minum
+19,mango tree,Makan dan minum
+19,manpuku tettchan,Makan dan minum
+19,mapo,Makan dan minum
+19,marbella kemang residence,Makan dan minum
+19,marco padang grill,Makan dan minum
+19,marco's bofet,Makan dan minum
+19,marengo,Makan dan minum
+19,market bar,Makan dan minum
+19,marley,Makan dan minum
+19,maroush,Makan dan minum
+19,marufuku,Makan dan minum
+19,marugame,Makan dan minum
+19,matsuri,Makan dan minum
+19,maxi bar,Makan dan minum
+19,meat bar grill & rhytm,Makan dan minum
+19,meat me,Makan dan minum
+19,melawai 21,Makan dan minum
+19,melodi,Makan dan minum
+19,menara cafã©,Makan dan minum
+19,menya sakura,Makan dan minum
+19,meradelima,Makan dan minum
+19,mercantile athletic club,Makan dan minum
+19,mezzaluna,Makan dan minum
+19,mie pangsit simpur,Makan dan minum
+19,mie thai,Makan dan minum
+19,miki ojisan no mise,Makan dan minum
+19,million dollar,Makan dan minum
+19,minamiaoyama mama,Makan dan minum
+19,minang bistro & coffe,Makan dan minum
+19,minang city restoran,Makan dan minum
+19,mister bean cafã©,Makan dan minum
+19,mitsubachi,Makan dan minum
+19,miu,Makan dan minum
+19,modi & rosa,Makan dan minum
+19,moe moe cafe,Makan dan minum
+19,moe's place,Makan dan minum
+19,mondo,Makan dan minum
+19,monviet restaurant,Makan dan minum
+19,moodz,Makan dan minum
+19,moon rider,Makan dan minum
+19,mother's cook,Makan dan minum
+19,mr. dupbap,Makan dan minum
+19,mu gung hwa,Makan dan minum
+19,munchies,Makan dan minum
+19,murphys irish pub & public house,Makan dan minum
+19,music pool,Makan dan minum
+19,my bar,Makan dan minum
+19,my humble house,Makan dan minum
+19,my kopi o,Makan dan minum
+19,my. pancake,Makan dan minum
+19,myeong ga myeon ok,Makan dan minum
+19,namaste resto,Makan dan minum
+19,nara han,Makan dan minum
+19,narah coffee,Makan dan minum
+19,nathan coffee,Makan dan minum
+19,negev,Makan dan minum
+19,neo amor,Makan dan minum
+19,new jikei sachi bar & restaurant,Makan dan minum
+19,new top gun,Makan dan minum
+19,ngemil cafe,Makan dan minum
+19,ngupi ngupi,Makan dan minum
+19,nijyumaru,Makan dan minum
+19,nip & dram,Makan dan minum
+19,nite flight,Makan dan minum
+19,noah cafe,Makan dan minum
+19,nouvelle,Makan dan minum
+19,nutmeg cuisine & bar,Makan dan minum
+19,oakroom,Makan dan minum
+19,ocean restoran,Makan dan minum
+19,odysseia,Makan dan minum
+19,okonomi dining en,Makan dan minum
+19,opa suki,Makan dan minum
+19,opera blanc,Makan dan minum
+19,ori steak & pasta,Makan dan minum
+19,osamuya,Makan dan minum
+19,otterhound,Makan dan minum
+19,over rice,Makan dan minum
+19,padi restaurant,Makan dan minum
+19,padzzi,Makan dan minum
+19,pan wok bersama,Makan dan minum
+19,pancake parlour,Makan dan minum
+19,pandan bistro,Makan dan minum
+19,pandor,Makan dan minum
+19,panghegar,Makan dan minum
+19,panini house,Makan dan minum
+19,papilon,Makan dan minum
+19,pappa jack kopitiam,Makan dan minum
+19,paratha corner,Makan dan minum
+19,parc 19,Makan dan minum
+19,pastis kitchen & bar,Makan dan minum
+19,patheya,Makan dan minum
+19,patio,Makan dan minum
+19,paul,Makan dan minum
+19,paviljoen kota,Makan dan minum
+19,peach garden,Makan dan minum
+19,pecel super bu dewi,Makan dan minum
+19,pepenero,Makan dan minum
+19,pepenero cucina italiana,Makan dan minum
+19,petromak',Makan dan minum
+19,pho 24,Makan dan minum
+19,pho hoa,Makan dan minum
+19,phobar,Makan dan minum
+19,phoenam cafã©,Makan dan minum
+19,pisa cafã© & resto mahakam,Makan dan minum
+19,pisa setiabudi,Makan dan minum
+19,piscator,Makan dan minum
+19,pit in,Makan dan minum
+19,pizza express,Makan dan minum
+19,pizzas & ribs,Makan dan minum
+19,plan b,Makan dan minum
+19,planet hollywood,Makan dan minum
+19,play ground,Makan dan minum
+19,poke grill,Makan dan minum
+19,pokenbir,Makan dan minum
+19,pondok geulis,Makan dan minum
+19,pondok indah golf,Makan dan minum
+19,pondok sate pak raden i,Makan dan minum
+19,pondok soto & uleg,Makan dan minum
+19,pondok wisata,Makan dan minum
+19,popular mansion kitchen & bar,Makan dan minum
+19,potato head,Makan dan minum
+19,potato head garage,Makan dan minum
+19,potbelli,Makan dan minum
+19,primavera euro cafã©,Makan dan minum
+19,prime cuts,Makan dan minum
+19,princesa,Makan dan minum
+19,priok,Makan dan minum
+19,prive lee resto,Makan dan minum
+19,pronto,Makan dan minum
+19,publo,Makan dan minum
+19,puput,Makan dan minum
+19,pure,Makan dan minum
+19,pure dine & drink,Makan dan minum
+19,pyong yang,Makan dan minum
+19,q-smokehouse factory,Makan dan minum
+19,quantum bistro,Makan dan minum
+19,ra sushi,Makan dan minum
+19,race 2 run cafã©,Makan dan minum
+19,radja ketjil,Makan dan minum
+19,ramen 38,Makan dan minum
+19,ramen 38 sanpachi,Makan dan minum
+19,ramen seirock - ya,Makan dan minum
+19,ranch kitchen,Makan dan minum
+19,rasa lapar,Makan dan minum
+19,rat at quille,Makan dan minum
+19,red & white,Makan dan minum
+19,red & white wine & spirit,Makan dan minum
+19,red line,Makan dan minum
+19,rempah wangi,Makan dan minum
+19,renaldo's apple strudel and pastries,Makan dan minum
+19,resto bu titiek,Makan dan minum
+19,resto chaesundang,Makan dan minum
+19,resto korea,Makan dan minum
+19,rice,Makan dan minum
+19,rick's cafã©,Makan dan minum
+19,rikishi,Makan dan minum
+19,rm andakar,Makan dan minum
+19,rm garo rica,Makan dan minum
+19,rm. doan,Makan dan minum
+19,rm. kogi kogi,Makan dan minum
+19,rm. putri,Makan dan minum
+19,robata jinya,Makan dan minum
+19,roemah-rempah,Makan dan minum
+19,rolling stone cafe,Makan dan minum
+19,roosters,Makan dan minum
+19,royal persian,Makan dan minum
+19,rumah cafã©,Makan dan minum
+19,rumah makan family benteng indah,Makan dan minum
+19,ruth's chris steak house,Makan dan minum
+19,saboga,Makan dan minum
+19,saboga raja baso tahu,Makan dan minum
+19,safe house,Makan dan minum
+19,sahati,Makan dan minum
+19,sajian sunda sambara,Makan dan minum
+19,sakura,Makan dan minum
+19,samwon garden,Makan dan minum
+19,samwon house,Makan dan minum
+19,sanjiken,Makan dan minum
+19,saodon,Makan dan minum
+19,sapo garden,Makan dan minum
+19,sapo oriental,Makan dan minum
+19,sardine sandwich bar,Makan dan minum
+19,sari kuring,Makan dan minum
+19,sate pancoran,Makan dan minum
+19,saung galah,Makan dan minum
+19,score,Makan dan minum
+19,sedap wangi,Makan dan minum
+19,seki tei,Makan dan minum
+19,sen ju ramen,Makan dan minum
+19,seoul garden,Makan dan minum
+19,serba food,Makan dan minum
+19,seribu rasa seafood & grill,Makan dan minum
+19,seruput,Makan dan minum
+19,sesto senso,Makan dan minum
+19,seven cafe,Makan dan minum
+19,seventy two coffee house,Makan dan minum
+19,shabu tei,Makan dan minum
+19,shabu yhobu,Makan dan minum
+19,shaburi kintan,Makan dan minum
+19,shelter,Makan dan minum
+19,shinta sari,Makan dan minum
+19,shiok,Makan dan minum
+19,sho teppan,Makan dan minum
+19,shy,Makan dan minum
+19,siam square,Makan dan minum
+19,simpang tiga,Makan dan minum
+19,sipirock coffee,Makan dan minum
+19,smokey ribs,Makan dan minum
+19,soeryo cafã© & steak,Makan dan minum
+19,solt,Makan dan minum
+19,somerset cafã©,Makan dan minum
+19,soondobu,Makan dan minum
+19,sop buntut bogor cafe,Makan dan minum
+19,sop buntut bogor cafã©,Makan dan minum
+19,sop duren lodaya,Makan dan minum
+19,sop ikan batam,Makan dan minum
+19,sopra,Makan dan minum
+19,sopra ristorante,Makan dan minum
+19,soto bangkong,Makan dan minum
+19,soto kudus,Makan dan minum
+19,soto kudus blok m,Makan dan minum
+19,soul 18,Makan dan minum
+19,soul in,Makan dan minum
+19,soupanova eco sky,Makan dan minum
+19,spain bar,Makan dan minum
+19,spankys,Makan dan minum
+19,splash bar @ the grove,Makan dan minum
+19,sport stube,Makan dan minum
+19,sportsmans,Makan dan minum
+19,star deli,Makan dan minum
+19,star family ktv,Makan dan minum
+19,steak 21,Makan dan minum
+19,stingray club & lounge,Makan dan minum
+19,stonegrill,Makan dan minum
+19,straits,Makan dan minum
+19,studio 21,Makan dan minum
+19,subscribe cafe,Makan dan minum
+19,sugar gallerie by gulaku,Makan dan minum
+19,suihou,Makan dan minum
+19,suka suki,Makan dan minum
+19,sumibian elite food,Makan dan minum
+19,sunnyvale,Makan dan minum
+19,sushi kachi,Makan dan minum
+19,sushi kawana,Makan dan minum
+19,sushi mise,Makan dan minum
+19,sushi nobu,Makan dan minum
+19,sushi shabu nobu,Makan dan minum
+19,sushi tengoku,Makan dan minum
+19,sushi ya,Makan dan minum
+19,sushigroove kokas,Makan dan minum
+19,sushi-ku,Makan dan minum
+19,t.g.i friday's,Makan dan minum
+19,t.g.i. friday's,Makan dan minum
+19,takarajima,Makan dan minum
+19,takeya,Makan dan minum
+19,talaga,Makan dan minum
+19,taliwang bersaudara,Makan dan minum
+19,tamani cafe,Makan dan minum
+19,tamba restaurant,Makan dan minum
+19,tanduri,Makan dan minum
+19,tanoshii sushi,Makan dan minum
+19,tapas movida,Makan dan minum
+19,tea launge and florist,Makan dan minum
+19,tempayan & sindoro,Makan dan minum
+19,ten,Makan dan minum
+19,teppan maru,Makan dan minum
+19,teritorri,Makan dan minum
+19,terogong sembilan,Makan dan minum
+19,tgrill burger & steak gourmet,Makan dan minum
+19,thai & i,Makan dan minum
+19,thai alley,Makan dan minum
+19,thai express,Makan dan minum
+19,thamnak thai,Makan dan minum
+19,the buffet,Makan dan minum
+19,the cafã©,Makan dan minum
+19,the classic indonesia,Makan dan minum
+19,the cow feed resto,Makan dan minum
+19,the dining room at bimasena,Makan dan minum
+19,the edge,Makan dan minum
+19,the everest,Makan dan minum
+19,the financial club,Makan dan minum
+19,the harvest,Makan dan minum
+19,the kasablanka,Makan dan minum
+19,the loft,Makan dan minum
+19,the mango,Makan dan minum
+19,the nest grill,Makan dan minum
+19,the ori,Makan dan minum
+19,the royal kitchen,Makan dan minum
+19,the rych,Makan dan minum
+19,the standford arms,Makan dan minum
+19,the taste resto,Makan dan minum
+19,three buns,Makan dan minum
+19,three second,Makan dan minum
+19,tian xi restaurant,Makan dan minum
+19,to bak,Makan dan minum
+19,toba tabo,Makan dan minum
+19,tokishirazu,Makan dan minum
+19,tokkyu,Makan dan minum
+19,tokyo belly,Makan dan minum
+19,tomodachi cafã©,Makan dan minum
+19,tony romas,Makan dan minum
+19,tori ichi,Makan dan minum
+19,torigami sushi,Makan dan minum
+19,torigen,Makan dan minum
+19,toro,Makan dan minum
+19,toscana,Makan dan minum
+19,trattoria il sale,Makan dan minum
+19,triple nine,Makan dan minum
+19,trotoar,Makan dan minum
+19,trs - dinner,Makan dan minum
+19,tsuki no fune,Makan dan minum
+19,twelve cupcakes,Makan dan minum
+19,umbra,Makan dan minum
+19,unicorn bar & lounge,Makan dan minum
+19,union,Makan dan minum
+19,usagi part 2,Makan dan minum
+19,u-zou,Makan dan minum
+19,vegetarian restaurant,Makan dan minum
+19,velpa,Makan dan minum
+19,venue,Makan dan minum
+19,venus,Makan dan minum
+19,vetro coffe,Makan dan minum
+19,vinoteca,Makan dan minum
+19,visi resto,Makan dan minum
+19,vitamin,Makan dan minum
+19,vizta,Makan dan minum
+19,walking,Makan dan minum
+19,wan toe,Makan dan minum
+19,waroeng ciragil,Makan dan minum
+19,waroeng kampoeng,Makan dan minum
+19,waroeng pojok,Makan dan minum
+19,"warung "" bu kris """,Makan dan minum
+19,warung lekko,Makan dan minum
+19,warung pasta,Makan dan minum
+19,warung ptt,Makan dan minum
+19,warunkomando,Makan dan minum
+19,wayo-men,Makan dan minum
+19,well done steak house,Makan dan minum
+19,"white hunter ribs, grill, & bar",Makan dan minum
+19,wijaya soju cafã©,Makan dan minum
+19,william kafe artistik,Makan dan minum
+19,wilshire,Makan dan minum
+19,wing stop,Makan dan minum
+19,wok & rol,Makan dan minum
+19,wolter bistro,Makan dan minum
+19,woo ri jung,Makan dan minum
+19,x.o suki & dimsum,Makan dan minum
+19,xiung mao chinese,Makan dan minum
+19,yakinikuya,Makan dan minum
+19,yokunatta,Makan dan minum
+19,you only live once,Makan dan minum
+19,yuki,Makan dan minum
+19,yuki 1,Makan dan minum
+19,yumeya,Makan dan minum
+19,zanas bar & grill,Makan dan minum
+19,zodiacus,Makan dan minum
+19,zoe coffee shop,Makan dan minum
+19,abunawas,Makan dan minum
+19,aila,Makan dan minum
+19,al derah,Makan dan minum
+19,bakmi golek,Makan dan minum
+19,bakmi jatiwaringin,Makan dan minum
+19,bale bengong,Makan dan minum
+19,burger & grill,Makan dan minum
+19,cafã© lagundi,Makan dan minum
+19,cahaya timur,Makan dan minum
+19,captain jack's cuisine,Makan dan minum
+19,celsius cafe & grill,Makan dan minum
+19,charlie vht,Makan dan minum
+19,chicken station,Makan dan minum
+19,c'one hotel pulomas,Makan dan minum
+19,d' artist family ktv,Makan dan minum
+19,d' frenz,Makan dan minum
+19,dinasty cafe,Makan dan minum
+19,gin thai,Makan dan minum
+19,grand charly vhi karaoke,Makan dan minum
+19,grand hikmah,Makan dan minum
+19,gurih,Makan dan minum
+19,handayani prima,Makan dan minum
+19,j.m cafã©,Makan dan minum
+19,karimata,Makan dan minum
+19,kremesan,Makan dan minum
+19,lawton coffee,Makan dan minum
+19,lesehan gurame,Makan dan minum
+19,lotte mart,Makan dan minum
+19,makanan dan minuman food court pc,Makan dan minum
+19,mekar lesehan,Makan dan minum
+19,munik,Makan dan minum
+19,palem teras,Makan dan minum
+19,pandan hijau resto,Makan dan minum
+19,pari mas,Makan dan minum
+19,persada,Makan dan minum
+19,platinum resto,Makan dan minum
+19,pojok kitchen,Makan dan minum
+19,pondok ayam goreng halim,Makan dan minum
+19,pondok cempaka dua,Makan dan minum
+19,pondok kuring cibubur,Makan dan minum
+19,queen,Makan dan minum
+19,ramen 1,Makan dan minum
+19,ramen i,Makan dan minum
+19,restoran nn,Makan dan minum
+19,rice 'n nudle's,Makan dan minum
+19,rindang alam,Makan dan minum
+19,riung tenda,Makan dan minum
+19,royal palace,Makan dan minum
+19,sari idaman,Makan dan minum
+19,sate blora cirebon,Makan dan minum
+19,sate cawang,Makan dan minum
+19,simbara cafã©,Makan dan minum
+19,star orange,Makan dan minum
+19,syriana house coffee & resto,Makan dan minum
+19,taman kuring,Makan dan minum
+19,taman palma,Makan dan minum
+19,udaya baru,Makan dan minum
+19,yummy,Makan dan minum
+19,""" token "" taiwan original chicken",Makan dan minum
+19,2001 hong,Makan dan minum
+19,33 degree sky bridge,Makan dan minum
+19,48 signature restoran,Makan dan minum
+19,ala pasta,Makan dan minum
+19,albatross restaurant,Makan dan minum
+19,alexis,Makan dan minum
+19,allegro,Makan dan minum
+19,ananda's vegetarian,Makan dan minum
+19,angke restoran fungtion hal,Makan dan minum
+19,artha gading,Makan dan minum
+19,arthur's,Makan dan minum
+19,ayam & ikan goreng cianjur,Makan dan minum
+19,ayam goreng pemuda surabaya,Makan dan minum
+19,b' steak grill & pancake,Makan dan minum
+19,backstage,Makan dan minum
+19,backyard,Makan dan minum
+19,baji pamai,Makan dan minum
+19,bak kut teh 100,Makan dan minum
+19,bakmi grand kelinci,Makan dan minum
+19,bakmi ravino,Makan dan minum
+19,bakoel desa,Makan dan minum
+19,bandar betawi,Makan dan minum
+19,bandar jakarta,Makan dan minum
+19,bangkok garden,Makan dan minum
+19,bangkok jam,Makan dan minum
+19,bara bere,Makan dan minum
+19,barokah,Makan dan minum
+19,base bar & cafã©,Makan dan minum
+19,batavia sunda kelapa marina,Makan dan minum
+19,beatrice quarters,Makan dan minum
+19,beer wine & spirits,Makan dan minum
+19,bi won,Makan dan minum
+19,bistro,Makan dan minum
+19,blue box,Makan dan minum
+19,blue fox,Makan dan minum
+19,bmc (bandoengsche melk centrale),Makan dan minum
+19,bobabits,Makan dan minum
+19,bonchon chicken express,Makan dan minum
+19,boulevard steak,Makan dan minum
+19,brewworkz,Makan dan minum
+19,bumbu dua,Makan dan minum
+19,bumbu moyang,Makan dan minum
+19,cafã© barrett borneo,Makan dan minum
+19,cafe de corner,Makan dan minum
+19,cafã© dosray,Makan dan minum
+19,cafã© janur mayang sari,Makan dan minum
+19,cafe ohlala,Makan dan minum
+19,cafe one eight,Makan dan minum
+19,cafã© sky,Makan dan minum
+19,canton paradise,Makan dan minum
+19,carnivor,Makan dan minum
+19,carnivor kelapa gading,Makan dan minum
+19,cathay,Makan dan minum
+19,celup celup,Makan dan minum
+19,cempaka jaya,Makan dan minum
+19,cesils,Makan dan minum
+19,ch house,Makan dan minum
+19,charlie karaoke,Makan dan minum
+19,chef's table,Makan dan minum
+19,cheng wang,Makan dan minum
+19,chicken phong,Makan dan minum
+19,chinese food a hwa,Makan dan minum
+19,chunagon,Makan dan minum
+19,chung hua,Makan dan minum
+19,cin yen,Makan dan minum
+19,club m karaoke,Makan dan minum
+19,coffee bar,Makan dan minum
+19,coffee corner,Makan dan minum
+19,coin's,Makan dan minum
+19,columbus fried chicken,Makan dan minum
+19,copa cabana,Makan dan minum
+19,costare,Makan dan minum
+19,coto konro,Makan dan minum
+19,crapoe,Makan dan minum
+19,cravin resto,Makan dan minum
+19,crown palace,Makan dan minum
+19,da jiang nan bei,Makan dan minum
+19,dae jang geum,Makan dan minum
+19,daisho express,Makan dan minum
+19,danau sunter,Makan dan minum
+19,dapur manado,Makan dan minum
+19,dapur seafood,Makan dan minum
+19,darumaya ramen,Makan dan minum
+19,"delta hotel, spa & health club",Makan dan minum
+19,dermaga one,Makan dan minum
+19,district,Makan dan minum
+19,dm 99 cafã© & resto,Makan dan minum
+19,do'an,Makan dan minum
+19,dragon seafood,Makan dan minum
+19,e bar,Makan dan minum
+19,east star,Makan dan minum
+19,eleventh hour,Makan dan minum
+19,elysium lounge & bar,Makan dan minum
+19,ever fresh fish market,Makan dan minum
+19,food bloc,Makan dan minum
+19,food galery,Makan dan minum
+19,frankfurter hotdog,Makan dan minum
+19,fuji,Makan dan minum
+19,fujiyama ramen,Makan dan minum
+19,fuku tei,Makan dan minum
+19,furama restaurant,Makan dan minum
+19,gading aroma,Makan dan minum
+19,galangan voc,Makan dan minum
+19,gandy steak house,Makan dan minum
+19,gangsan,Makan dan minum
+19,gastro alley,Makan dan minum
+19,girll master resto,Makan dan minum
+19,gogur yeo,Makan dan minum
+19,golden jade kitchen,Makan dan minum
+19,golden leaf,Makan dan minum
+19,grab & go,Makan dan minum
+19,grand prince,Makan dan minum
+19,grandma's suki,Makan dan minum
+19,green kitchen,Makan dan minum
+19,haagen dazs,Makan dan minum
+19,hailam kopitiam,Makan dan minum
+19,hangover,Makan dan minum
+19,hanok,Makan dan minum
+19,happy,Makan dan minum
+19,happy family ( family ria ),Makan dan minum
+19,happy kitchen,Makan dan minum
+19,hawai,Makan dan minum
+19,hawai vegetarian food,Makan dan minum
+19,hokkaido fish market,Makan dan minum
+19,hokuo,Makan dan minum
+19,hollywood,Makan dan minum
+19,honeymoon dessert emporium,Makan dan minum
+19,hops & malt,Makan dan minum
+19,hot station,Makan dan minum
+19,hotshots burger,Makan dan minum
+19,hottencole,Makan dan minum
+19,house of pasta,Makan dan minum
+19,hwang geum bab sang,Makan dan minum
+19,ibiza - chamomile,Makan dan minum
+19,ichibiru,Makan dan minum
+19,ikan goreng cianjur,Makan dan minum
+19,ikana ikana,Makan dan minum
+19,ikapu,Makan dan minum
+19,ikkousha,Makan dan minum
+19,ikkudo - ichi,Makan dan minum
+19,ilha formosa,Makan dan minum
+19,imperial duck,Makan dan minum
+19,imperial wok,Makan dan minum
+19,ing suki,Makan dan minum
+19,inkopal,Makan dan minum
+19,ipot suki,Makan dan minum
+19,ippeke komachi,Makan dan minum
+19,iton,Makan dan minum
+19,jang teoh,Makan dan minum
+19,jemahdi seafood,Makan dan minum
+19,jia wei restaurant,Makan dan minum
+19,jimbaran,Makan dan minum
+19,joy cafã©,Makan dan minum
+19,kamtag chicken,Makan dan minum
+19,kembang tandjoeng,Makan dan minum
+19,kimchi grandma,Makan dan minum
+19,king's palace,Makan dan minum
+19,kyo-dai ramen,Makan dan minum
+19,la piazza gading food city,Makan dan minum
+19,lalapan hidangan sunda,Makan dan minum
+19,le mint,Makan dan minum
+19,le shan lou,Makan dan minum
+19,little baghdad,Makan dan minum
+19,lollipop,Makan dan minum
+19,lollypop' s playland & cafã©,Makan dan minum
+19,london cafã©,Makan dan minum
+19,long beach,Makan dan minum
+19,loykee best chicken rice,Makan dan minum
+19,macau supreme,Makan dan minum
+19,mame,Makan dan minum
+19,manimga,Makan dan minum
+19,matsuzaka japanese steak,Makan dan minum
+19,may star corner,Makan dan minum
+19,medan baru,Makan dan minum
+19,men -oh hakata,Makan dan minum
+19,michuholl,Makan dan minum
+19,mimoosa,Makan dan minum
+19,minus 2 (two),Makan dan minum
+19,miz moren,Makan dan minum
+19,momento,Makan dan minum
+19,mr. bbq,Makan dan minum
+19,mr. sashimi,Makan dan minum
+19,muara kuring,Makan dan minum
+19,my hanoi house,Makan dan minum
+19,my resto,Makan dan minum
+19,mystique,Makan dan minum
+19,nabe douraku,Makan dan minum
+19,new oceanic cafã©,Makan dan minum
+19,northren house indonesia,Makan dan minum
+19,nuno fusion food,Makan dan minum
+19,ocha,Makan dan minum
+19,oh lala lounge,Makan dan minum
+19,ohka,Makan dan minum
+19,okiro box,Makan dan minum
+19,oktober feast,Makan dan minum
+19,oldtown,Makan dan minum
+19,olfrenz,Makan dan minum
+19,oppa house of soju,Makan dan minum
+19,oriental,Makan dan minum
+19,ozone food centre,Makan dan minum
+19,p & b,Makan dan minum
+19,padang express,Makan dan minum
+19,pan and barrel,Makan dan minum
+19,pan pan,Makan dan minum
+19,penang,Makan dan minum
+19,penang kopitiam,Makan dan minum
+19,pendopo 21,Makan dan minum
+19,pepper lunch express,Makan dan minum
+19,pho' anh,Makan dan minum
+19,pidza inc,Makan dan minum
+19,pisa cafe and resto,Makan dan minum
+19,pisa kelapa gading,Makan dan minum
+19,pit stop karting,Makan dan minum
+19,pondok aroma segar,Makan dan minum
+19,pondok daun,Makan dan minum
+19,pondok dunia laut,Makan dan minum
+19,pondok impian,Makan dan minum
+19,pondok kepiting asap,Makan dan minum
+19,port er house,Makan dan minum
+19,pusat jajan mkg-1,Makan dan minum
+19,q - seafood restaurant,Makan dan minum
+19,q - thai,Makan dan minum
+19,queen's of india,Makan dan minum
+19,queffe cafã©,Makan dan minum
+19,racha suki,Makan dan minum
+19,rainbow,Makan dan minum
+19,rainbow kitchen,Makan dan minum
+19,raja kuring,Makan dan minum
+19,ramen 180,Makan dan minum
+19,rati rati,Makan dan minum
+19,rawon nguling,Makan dan minum
+19,red and white,Makan dan minum
+19,red crystal,Makan dan minum
+19,red tomato express,Makan dan minum
+19,rem club,Makan dan minum
+19,replay,Makan dan minum
+19,resto platinum,Makan dan minum
+19,restoran pyongyang baru,Makan dan minum
+19,rumah makan 369,Makan dan minum
+19,rumah makan kns,Makan dan minum
+19,rusdin resto,Makan dan minum
+19,ryo tei,Makan dan minum
+19,sahabat bundo,Makan dan minum
+19,sahara cafe,Makan dan minum
+19,sahara shisha cafe & food,Makan dan minum
+19,sambalero,Makan dan minum
+19,sampan,Makan dan minum
+19,sampan bbq seafood centre,Makan dan minum
+19,samudera rasa,Makan dan minum
+19,sate khas senayan express,Makan dan minum
+19,sea food sunda kelapa,Makan dan minum
+19,sea side suki,Makan dan minum
+19,seafood city bandar djakarta,Makan dan minum
+19,seafood kapal laut,Makan dan minum
+19,segarra,Makan dan minum
+19,selera,Makan dan minum
+19,sense,Makan dan minum
+19,seorae galmaegisal,Makan dan minum
+19,seoul korean restaurant,Makan dan minum
+19,siamsuki,Makan dan minum
+19,siamsuki and grill,Makan dan minum
+19,signature,Makan dan minum
+19,sin sin restaurant,Makan dan minum
+19,sinar jaya,Makan dan minum
+19,sopkan resto,Makan dan minum
+19,soto ambengan,Makan dan minum
+19,soto ayam ambengan pak saidi,Makan dan minum
+19,spring hill sea food,Makan dan minum
+19,ssikkek korean bbq,Makan dan minum
+19,standing sushi bar,Makan dan minum
+19,street galery,Makan dan minum
+19,styles,Makan dan minum
+19,suki jade,Makan dan minum
+19,sumibian,Makan dan minum
+19,sumo,Makan dan minum
+19,sumoboo,Makan dan minum
+19,sun fong cuisine,Makan dan minum
+19,sunda kelapa,Makan dan minum
+19,sushi masa,Makan dan minum
+19,sushizen,Makan dan minum
+19,ta yang suki,Makan dan minum
+19,tagami,Makan dan minum
+19,taipan,Makan dan minum
+19,taiyo sushi,Makan dan minum
+19,take shabu,Makan dan minum
+19,tang terrace,Makan dan minum
+19,tang zhi,Makan dan minum
+19,tea garden,Makan dan minum
+19,ted's,Makan dan minum
+19,tematik,Makan dan minum
+19,tempo doeloe,Makan dan minum
+19,teo chew palace,Makan dan minum
+19,teppanyaki niroku,Makan dan minum
+19,teracce cafã©,Makan dan minum
+19,texas fried chicken,Makan dan minum
+19,thang cafe,Makan dan minum
+19,the barbecue plaza,Makan dan minum
+19,the beers,Makan dan minum
+19,the gang of pfc,Makan dan minum
+19,the lab cafã©,Makan dan minum
+19,the melpot,Makan dan minum
+19,the play room,Makan dan minum
+19,the vineyard,Makan dan minum
+19,thirty seven degrees,Makan dan minum
+19,tiger express,Makan dan minum
+19,tongue 'n groove,Makan dan minum
+19,top cafã© & resto,Makan dan minum
+19,tortuga,Makan dan minum
+19,tsim tung,Makan dan minum
+19,urang kampung euy,Makan dan minum
+19,vegetus,Makan dan minum
+19,vilmeidhy,Makan dan minum
+19,vino asia cemerlang,Makan dan minum
+19,viti,Makan dan minum
+19,viva bowling,Makan dan minum
+19,voize,Makan dan minum
+19,waroeng daun sedap,Makan dan minum
+19,warung subak,Makan dan minum
+19,waterbom,Makan dan minum
+19,wayn,Makan dan minum
+19,wendys,Makan dan minum
+19,white hunter & han gang,Makan dan minum
+19,whiz,Makan dan minum
+19,wine cellar,Makan dan minum
+19,woku woku,Makan dan minum
+19,woon tung kee,Makan dan minum
+19,x fun,Makan dan minum
+19,x golf,Makan dan minum
+19,x.o suki & cuisine,Makan dan minum
+19,x.o suki & yakiniku,Makan dan minum
+19,xiang garden,Makan dan minum
+19,xiang man lou,Makan dan minum
+19,xo - suki,Makan dan minum
+19,ya rae hyang,Makan dan minum
+19,yamagoya ramen,Makan dan minum
+19,yuraku,Makan dan minum
+19,yuraku buffet,Makan dan minum
+19,eatery,Makan dan minum
+19,pusat jajan daan mogot,Makan dan minum
+19,taman jajan pola bugar,Makan dan minum
+19,urban kitchen,Makan dan minum
+19,cafã© de sarinah,Makan dan minum
+19,daoen sirih food garden,Makan dan minum
+19,food court gajah mada plaza,Makan dan minum
+19,food court itc cempaka mas,Makan dan minum
+19,food court tenabang,Makan dan minum
+19,food district,Makan dan minum
+19,food louver,Makan dan minum
+19,foodicious,Makan dan minum
+19,pusat jajan carrefour,Makan dan minum
+19,pusat jajan d.zone,Makan dan minum
+19,pusat jajan galeri matahari,Makan dan minum
+19,the foodzone,Makan dan minum
+19,urban kanteen,Makan dan minum
+19,vanilla cafe,Makan dan minum
+19,eat and eat,Makan dan minum
+19,food court itc kuningan,Makan dan minum
+19,food court itc permata hijau,Makan dan minum
+19,food court kuningan village,Makan dan minum
+19,food court mal ambasador,Makan dan minum
+19,food court pondok indah mall ii,Makan dan minum
+19,food court the energy,Makan dan minum
+19,food court the nest,Makan dan minum
+19,food point,Makan dan minum
+19,gourmet world,Makan dan minum
+19,kemiri,Makan dan minum
+19,lunch box,Makan dan minum
+19,market place,Makan dan minum
+19,menara bidakara food court,Makan dan minum
+19,pasaraya blok m food court,Makan dan minum
+19,property,Makan dan minum
+19,sampoerna food square,Makan dan minum
+19,the bellagio food centre,Makan dan minum
+19,cibubur junction food court,Makan dan minum
+19,fast food ujung menteng,Makan dan minum
+19,obe kitchen,Makan dan minum
+19,wiki wiki wok,Makan dan minum
+19,fj square,Makan dan minum
+19,food court mangga dua square,Makan dan minum
+19,food court wtc mangga dua,Makan dan minum
+19,food junction,Makan dan minum
+19,jasons,Makan dan minum
+19,mag food,Makan dan minum
+19,pusat hidangan boulevard,Makan dan minum
+19,pusat jajan - 1,Makan dan minum
+19,pusat jajan diamond,Makan dan minum
+8,islam jakarta,Kesehatan
+8,pertamina jaya,Kesehatan
+8,tarakan,Kesehatan
+8,mitra kemayoran,Kesehatan
+8,pgi cikini,Kesehatan
+8,abdi waluyo,Kesehatan
+8,menteng mitra afia,Kesehatan
+8,husada,Kesehatan
+8,dr. cipto mangunkusumo,Kesehatan
+8,moh. ridwan meuraksa,Kesehatan
+8,kramat 128,Kesehatan
+8,pk. sint carolus,Kesehatan
+8,moh. husni thamrin internasional salemba,Kesehatan
+8,gatot subroto,Kesehatan
+8,dr. mintohardjo,Kesehatan
+8,evasari,Kesehatan
+8,budi kemuliaan,Kesehatan
+8,profesor nizar,Kesehatan
+8,dharma sakti,Kesehatan
+8,panti raharja,Kesehatan
+8,berkat ibu,Kesehatan
+8,ypk mandiri,Kesehatan
+8,bunda jakarta,Kesehatan
+8,bina estetika,Kesehatan
+8,jakarta eye center,Kesehatan
+8,proklamasi,Kesehatan
+8,tambak,Kesehatan
+8,fkg universitas indonesia,Kesehatan
+8,salemba satu,Kesehatan
+8,sahid sahirman memorial,Kesehatan
+8,islam jakarta sukapura,Kesehatan
+8,gading pluit,Kesehatan
+8,mitra keluarga kelapa gading,Kesehatan
+8,koja,Kesehatan
+8,pelabuhan jakarta,Kesehatan
+8,mulyasari,Kesehatan
+8,pantai indah kapuk,Kesehatan
+8,atma jaya,Kesehatan
+8,pluit,Kesehatan
+8,puri medika,Kesehatan
+8,satya negara,Kesehatan
+8,royal progress,Kesehatan
+8,port medical center,Kesehatan
+8,sukmul sisma medika,Kesehatan
+8,family,Kesehatan
+8,grand family,Kesehatan
+8,pi. prof.sulianti saroso,Kesehatan
+8,santo susuf,Kesehatan
+8,firdaus,Kesehatan
+8,hermina podomoro,Kesehatan
+8,cengkareng,Kesehatan
+8,patria ikkt,Kesehatan
+8,royal taruma,Kesehatan
+8,sumber waras,Kesehatan
+8,hermina daan mogot,Kesehatan
+8,siloam hospitals kebon jeruk/siloam graha medika,Kesehatan
+8,puri mandiri kedoya,Kesehatan
+8,grha kedoya,Kesehatan
+8,medika permata hijau,Kesehatan
+8,puri indah,Kesehatan
+8,pelni petamburan,Kesehatan
+8,bhakti mulia,Kesehatan
+8,cinta kasih tzu chi,Kesehatan
+8,dr.soeharto heerdjan,Kesehatan
+8,bina sehat mandiri,Kesehatan
+8,dharmais,Kesehatan
+8,harapan kita,Kesehatan
+8,harapan kita,Kesehatan
+8,aries,Kesehatan
+8,fkg universitas trisakti,Kesehatan
+8,anggrek mas,Kesehatan
+8,jakarta eye center kedoya,Kesehatan
+8,ban jakarta selatan,Kesehatan
+8,setia mitra,Kesehatan
+8,fatmawati,Kesehatan
+8,mayapada,Kesehatan
+8,prikasih,Kesehatan
+8,ali sibroh malisi,Kesehatan
+8,zahirah,Kesehatan
+8,muhammadiyah jakarta,Kesehatan
+8,pusat pertamina,Kesehatan
+8,muhammadiyah taman puring,Kesehatan
+8,gandaria,Kesehatan
+8,pondok indah jakarta selatan,Kesehatan
+8,bhayangkara selapa polri,Kesehatan
+8,jakarta medical center,Kesehatan
+8,rumkital marinir cilandak,Kesehatan
+8,siaga raya,Kesehatan
+8,dr. suyoto,Kesehatan
+8,metropolitan medical center,Kesehatan
+8,jakarta,Kesehatan
+8,medistra,Kesehatan
+8,agung,Kesehatan
+8,tebet,Kesehatan
+8,tria dipa,Kesehatan
+8,andhika,Kesehatan
+8,manazeli,Kesehatan
+8,aulia,Kesehatan
+8,sofa marwa,Kesehatan
+8,brawijaya,Kesehatan
+8,asih,Kesehatan
+8,dharmawangsa,Kesehatan
+8,yurino ciranjang,Kesehatan
+8,panti nugeraha,Kesehatan
+8,kartini,Kesehatan
+8,yadika kebayoran lama,Kesehatan
+8,asri,Kesehatan
+8,duren tiga,Kesehatan
+8,avisena,Kesehatan
+8,kemang,Kesehatan
+8,siloam semanggi,Kesehatan
+8,"prof.dr.isak salim ""aini""",Kesehatan
+8,budhi jaya,Kesehatan
+8,fkg univ.prof.dr.moestopo,Kesehatan
+8,harapan jayakarta,Kesehatan
+8,harapan bunda,Kesehatan
+8,yadika pondok bambu,Kesehatan
+8,islam jakarta pondok kopi,Kesehatan
+8,tk.iv cijantung kesdam jaya,Kesehatan
+8,pengayoman cipinang,Kesehatan
+8,premier jatinegara,Kesehatan
+8,pusat angkatan udara dr. esnawan antariksa,Kesehatan
+8,budhi asih,Kesehatan
+8,tk.iii dik pusdikkes kadiklatad,Kesehatan
+8,bhayangkara tk.i  r. said sukanto,Kesehatan
+8,universitas kristen indonesia,Kesehatan
+8,harum sisma medika,Kesehatan
+8,haji jakarta,Kesehatan
+8,pasar rebo,Kesehatan
+8,pemuda,Kesehatan
+8,pulomas,Kesehatan
+8,omni internasional pulomas,Kesehatan
+8,kartika pulomas,Kesehatan
+8,persahabatan,Kesehatan
+8,mediros,Kesehatan
+8,dharma nugraha,Kesehatan
+8,resti mulya,Kesehatan
+8,ketergantungan obat,Kesehatan
+8,duren sawit,Kesehatan
+8,sekar,Kesehatan
+8,islam klender jakarta,Kesehatan
+8,bunda aliyah,Kesehatan
+8,sammarie basra,Kesehatan
+8,sayyidah,Kesehatan
+8,hermina jatinegara,Kesehatan
+8,asta nugraha,Kesehatan
+8,restu,Kesehatan
+8,bina waluya,Kesehatan
+8,jakarta,Kesehatan
+8,rawamangun,Kesehatan
+8,alvernia agusta,Kesehatan
+8,matraman,Kesehatan
+8,kepulauan seribu,Kesehatan
+16,panorama tours,Transportasi
+16,tx travel - moi,Transportasi
+16,asia wisata,Transportasi
+16,nata tours,Transportasi
+16,panorama tours1,Transportasi
+16,nata tours1,Transportasi
+16,dwidaya1,Transportasi
+16,dwi java t&t,Transportasi
+9,gerbang purnama,Lainnya
+9,grogol i,Lainnya
+9,grogol 2,Lainnya
+9,hotel transit tomang,Lainnya
+9,pondok citra grogol,Lainnya
+9,pondok mitra kencana lestari,Lainnya
+9,laura,Lainnya
+9,bukit indah,Lainnya
+9,pondok wisata,Lainnya
+9,c' one hotel pulomas,Lainnya
+9,pondok nirwana,Lainnya
+9,pondok pulo mas,Lainnya
+9,pondok tirta sentosa,Lainnya
+9,griya permai,Lainnya
+9,pondok impian,Lainnya
+9,pondok kencana indah,Lainnya
+9,pondok sunter indah,Lainnya
+19,le palace du cho,Makan dan minum
+15,panin unggul adb-a045-53750032,Tagihan
+19,gauthier,Makan dan minum
+2,franpix 6728,Belanja
+2,ags airgate shop s,Belanja
+19,chocolaterie trans,Makan dan minum
+19,cafeco kft,Makan dan minum
+2,dm 332.sz.,Belanja
+2,zara,Belanja
+19,new york café,Makan dan minum
+19,ml inar pe' kse'g ma,Makan dan minum
+19,spar,Makan dan minum
+17,rudas gyo'gyfu:rdo,Liburan
+19,joseph b?ckerei pa,Makan dan minum
+19,manner,Makan dan minum
+19,nordsee ges. m.b.h,Makan dan minum
+16,wiener linien 703,Transportasi
+2,spar dankt,Belanja
+19,cafe savoy,Makan dan Minum
+2,souvenir shop,Belanja
+9,dp prepravni kontr,Lainnya
+2,billa v celnici 10,Belanja
+19,nordsee oc palladi,Makan dan Minum
+19,ema espresso bar,Makan dan Minum
+19,sbx praha clock,Makan dan Minum
+17,staromestska radni,Liburan
+2,manufaktura,Belanja
+19,chimney cake acade,Makan dan Minum
+9,xin gui̇ li̇n s.r.o.,Lainnya
+19,"amlok, lokal",Makan dan Minum
+17,hotel sanator,Liburan
+19,sageb bvs dab,Makan dan Minum
+16,ratp,Transportasi
+19,kitsune france,Makan dan Minum
+19,cafe kitsune,Makan dan Minum
+2,hermes,Belanja
+19,fauchon,Makan dan Minum
+2,zara france,Belanja
+2,apple store,Belanja
+2,gl haussmann,Belanja
+2,monop,Belanja
+17,paris bastille,Liburan
+2,relay,Belanja
+19,itsu 077 heathrow,Makan dan Minum
+2,boots,Belanja
+5,creative mobile,Hiburan
+19,nespresso usa,Makan dan Minum
+2,t j maxx,Belanja
+2,best buy,Belanja
+19,dunkin,Makan dan Minum
+8,cvs/pharmacy,Kesehatan
+19,bta ist. yeni hava,Makan dan Minum
+5,dglam by anna wija,Hiburan
+19,xi fung tang,Makan dan Minum
+15,koperasi rspp,Tagihan
+2,miniso,Belanja
+9,fmi veteran,Lainnya
+2,indomaret,Belanja
+8,misumi lash & beau,Kesehatan
+19,kimukatsu,Makan dan Minum
+19,kopi tuku bsd,Makan dan Minum
+19,kayukayu restauran,Makan dan Minum
+19,roti jadul kocabi,Makan dan Minum
+2,tokopedia,Belanja
+6,reksa dana syariah,Investasi
+19,kopisoe-ho,Makan dan Minum
+19,jco bsd square,Makan dan Minum
+2,alfamart,Belanja
+17,"laris, bsd",Liburan
+2,puspita toko-ho,Belanja
+19,irwan frozen food,Makan dan Minum
+16,go-pay custo,Transportasi
+2,shopee,Belanja
+19,des & dan-ho,Makan dan Minum
+2,raissa ng,Belanja
+19,rosso' micro roast,Makan dan Minum
+2,ranch market the b,Belanja
+2,aeon bsd ssm,Belanja
+2,aeon bsd dept stor,Belanja
+19,wafflette by animo,Makan dan Minum
+15,llg-anz indonesia pt ganesha aggies financial resiliency,Tagihan
+15,sagaleh wijaya-ho,Tagihan
+2,"zara, plaza se",Belanja
+19,"sushi tei, ps",Makan dan Minum
+19,"the foodhall, ps",Makan dan Minum
+2,kkuldak aeon mall,Belanja
+19,sushi tei the bree,Makan dan Minum
+19,pempek kenari - ho,Makan dan Minum
+19,gudeg keraton-ho,Makan dan Minum
+19,pison coffe jakar,Makan dan Minum
+2,shihlin mall teras,Belanja
+19,sbux teraskota-scb,Makan dan Minum
+19,chief coffe cirag,Makan dan Minum
+19,chatime the breeze,Makan dan Minum
+2,hobbie toko-ho,Belanja
+2,sabar maju serpong,Belanja
+2,88 toko plastik-ho,Belanja
+19,dough lab-ho,Makan dan Minum
+19,sbux kemang-sca8,Makan dan Minum
+16,new nostimo mbl,Transportasi
+19,monsieur spoon-pet,Makan dan Minum
